@@ -1,0 +1,2262 @@
+id:1 name:Spike  Spiegel
+id:2 name:Faye  Valentine
+id:3 name:Jet Black
+id:4 name:Ein  
+id:5 name:Ichigo Kurosaki
+id:6 name:Rukia  Kuchiki
+id:7 name:Orihime Inoue
+id:11 name:Edward Elric
+id:12 name:Alphonse Elric
+id:13 name:Sasuke  Uchiha
+id:14 name:Itachi  Uchiha
+id:15 name:Ippo Makunouchi
+id:16 name:Edward Wong Hau Pepelu Tivrusky IV
+id:17 name:Naruto Uzumaki
+id:18 name:Haruhi Fujioka
+id:19 name:Tamaki Suou
+id:20 name:Mitsukuni Haninozuka
+id:21 name:Takashi Morinozuka
+id:22 name:Hikaru  Hitachiin
+id:23 name:Kyouya Ootori
+id:24 name:Kaoru  Hitachiin
+id:25 name:Renge  Houshakuji
+id:26 name:Ging Freecss
+id:27 name:Killua Zoldyck
+id:28 name:Kurapika 
+id:29 name:Leorio  Paladiknight
+id:30 name:Gon  Freecss
+id:31 name:Hisoka  Morow
+id:32 name:Ovan  
+id:33 name:Haseo 
+id:34 name:Shino  
+id:35 name:Tabby  
+id:36 name:Phyllo  
+id:37 name:Sakisaka  
+id:38 name:Tawaraya  
+id:39 name:Tsukasa  
+id:40 name:Luffy Monkey D.
+id:41 name:Subaru  
+id:42 name:Train Heartnet
+id:43 name:Sven  Vollfied
+id:44 name:Eve 
+id:45 name:Rinslet Walker
+id:46 name:Ban  Midou
+id:47 name:Ginji Amano
+id:48 name:Kazuki Fuuchouin
+id:49 name:Shido Fuyuki
+id:50 name:Hevn  
+id:51 name:Natsumi  Mizuki
+id:52 name:Kuroudo Akabane
+id:53 name:Himiko Kudou
+id:54 name:Paul Wang
+id:55 name:MakubeX 
+id:56 name:Juubei  Kakei
+id:57 name:Illumi  Zoldyck
+id:58 name:Chrollo Lucilfer
+id:59 name:Zeno  Zoldyck
+id:60 name:Silva  Zoldyck
+id:61 name:Robin Nico
+id:62 name:Zoro Roronoa
+id:63 name:Winry Rockbell
+id:64 name:Franky 
+id:65 name:Pinako  Rockbell
+id:66 name:Scar  
+id:67 name:Izumi  Curtis
+id:68 name:Roy Mustang
+id:69 name:Maes  Hughes
+id:70 name:Riza  Hawkeye
+id:71 name:L Lawliet
+id:72 name:Kazuma  Azuma
+id:73 name:Kyousuke  Kawachi
+id:74 name:Tsukino  Azusagawa
+id:75 name:Ryuk  
+id:76 name:Kai  Suwabara
+id:77 name:Shigeru  Kanmuri
+id:78 name:Ken  Matsushiro
+id:79 name:Ryo Kuroyanagi
+id:80 name:Light Yagami
+id:81 name:Pierrot Bolneze
+id:82 name:Yuuichi  Kirisaki
+id:83 name:Yukino  Azusagawa
+id:84 name:Kageto  Kinoshita
+id:85 name:Kakashi Hatake
+id:86 name:Rei Ayanami
+id:87 name:Kino  
+id:88 name:Hermes  
+id:89 name:Shinji Ikari
+id:90 name:Hikaru  Shindou
+id:91 name:Sai  Fujiwara no
+id:92 name:Akari  Fujisaki
+id:93 name:Akira  Touya
+id:94 name:Asuka Langley Souryuu
+id:95 name:Yuki  Mitani
+id:96 name:Tetsuo  Kaga
+id:97 name:Kimihiro  Tsutsui
+id:98 name:Yoshitaka  Waya
+id:99 name:Heero Yuy
+id:100 name:Shinichiro  Isumi
+id:101 name:Kousuke  Ochi
+id:102 name:Seiji  Ogata
+id:103 name:Duo Maxwell
+id:104 name:Shigeo  Morishita
+id:105 name:Trowa Barton
+id:106 name:Kippei  Katakura
+id:107 name:Yuzuyu  Sakashita
+id:108 name:Quatre Raberba  Winner
+id:109 name:Kokoro  Tokunaga
+id:110 name:Wufei  Chang
+id:111 name:Reiko  Katakura
+id:112 name:Satsuki  Katakura
+id:113 name:Kira  Yamato
+id:114 name:Athrun Zala
+id:115 name:Cagalli Yula Athha
+id:116 name:Lacus  Clyne
+id:117 name:Shinn  Asuka
+id:118 name:Rey  Za Burrel
+id:119 name:Stella Loussier
+id:120 name:Lunamaria Hawke
+id:121 name:Meyrin  Hawke
+id:122 name:Andrew Waltfeld
+id:123 name:Dearka  Elsman
+id:124 name:Flay  Allster
+id:125 name:Murrue Ramius
+id:126 name:Syaoran  
+id:127 name:Sakura  
+id:128 name:Fai  
+id:129 name:Kurogane 
+id:130 name:Kotarou  Higuchi
+id:131 name:Misha 
+id:132 name:Shia  
+id:133 name:Takashi Ayanokouji
+id:134 name:Koboshi  Uematsu
+id:135 name:Hiroshi  Mitarai
+id:136 name:Louise Françoise Le Blanc de La Vallière
+id:137 name:Saito Hiraga
+id:138 name:Mitsuki Kouyama
+id:139 name:Allen Walker
+id:140 name:Yuu Kanda
+id:141 name:Lenalee Lee
+id:142 name:Komui  Lee
+id:143 name:Daisuke  Niwa
+id:144 name:Dark Mousy
+id:145 name:Sakura Haruno
+id:146 name:Negi  Springfield
+id:147 name:Kenshin Himura
+id:148 name:Kaoru Kamiya
+id:149 name:Sanosuke Sagara
+id:150 name:Yahiko  Myoujin
+id:151 name:Megumi Takani
+id:152 name:Kirara  
+id:153 name:Kambei  Shimada
+id:154 name:Katsushiro  Okamoto
+id:155 name:Gorobei  Katayama
+id:156 name:Shichiroji 
+id:157 name:Kikuchiyo  
+id:158 name:Heihachi  Hayashida
+id:159 name:Kyuzo  
+id:160 name:Tetsunosuke Ichimura
+id:161 name:Souji Okita
+id:162 name:Vash the Stampede 
+id:163 name:Toshizou Hijikata
+id:164 name:Sanosuke  Harada
+id:165 name:Shinpachi  Nagakura
+id:166 name:Susumu Yamazaki
+id:167 name:You  Asakura
+id:168 name:Sousuke Sagara
+id:169 name:Amidamaru  
+id:170 name:Anna  Kyouyama
+id:171 name:Ren Tao
+id:172 name:Hao Asakura
+id:173 name:Horokeu Usui
+id:174 name:Manta Oyamada
+id:175 name:Tazusa Sakurano
+id:176 name:Pete  Pumps
+id:177 name:Ayumu  Narumi
+id:178 name:Hiyono Yuizaki
+id:180 name:  Sakaki
+id:181 name:Tomo  Takino
+id:182 name:Koyomi Mizuhara
+id:183 name:Ayumu Kasuga
+id:185 name:Kantarou  Ichinomiya
+id:186 name:Haruka  
+id:187 name:Yukito  Kunisaki
+id:188 name:Misuzu  Kamio
+id:189 name:Rekka Hanabishi
+id:190 name:Fuuko  Kirisawa
+id:191 name:Domon  Ishijima
+id:192 name:Tokiya  Mikagami
+id:193 name:Kaoru  Koganei
+id:194 name:Shima Katase
+id:195 name:Kouta  Otoyama
+id:196 name:Arisa  Glennorth
+id:197 name:Azusa  Hinomori
+id:198 name:Tenma  Tsukamoto
+id:199 name:Kenji Harima
+id:200 name:Ouji Karasuma
+id:201 name:Eri Sawachika
+id:202 name:Yakumo Tsukamoto
+id:203 name:Mikoto Suou
+id:204 name:Akira  Takano
+id:205 name:Haruki Hanai
+id:206 name:Shigure Souma
+id:207 name:Tooru  Honda
+id:208 name:Yuki Souma
+id:209 name:Kyou Souma
+id:210 name:Kisuke Urahara
+id:211 name:Ran Fujimiya
+id:212 name:Omi Tsukiyono
+id:213 name:Ken Hidaka
+id:214 name:Youji Kudou
+id:215 name:Sena  Izumi
+id:216 name:Kyou  Aguri
+id:217 name:Sanzou Genjou
+id:218 name:Gokuu  Son
+id:219 name:Hakkai Cho
+id:220 name:Gojou Sha
+id:221 name:Risa  Harada
+id:222 name:Riku  Harada
+id:223 name:Satoshi Hiwatari
+id:224 name:Krad  
+id:225 name:Hideki  Motosuwa
+id:226 name:Hiromu  Shinbo
+id:227 name:Chii 
+id:228 name:Chitose  Hibiya
+id:229 name:Minoru  Kokubunji
+id:230 name:Kotoko  
+id:231 name:Sumomo 
+id:232 name:Yoshiyuki Kojima
+id:233 name:Hiroyasu  Ueda
+id:234 name:Yumi  Omura
+id:235 name:Kimihiro  Watanuki
+id:236 name:Yuuko Ichihara
+id:237 name:Takaya Ougi
+id:238 name:Nobutsuna Naoe
+id:239 name:Shuuhei Chiaki
+id:240 name:Haruie Kakizaki
+id:241 name:Kiba  
+id:242 name:Tsume  
+id:243 name:Hige  
+id:244 name:Toboe  
+id:245 name:Toushirou Hitsugaya
+id:246 name:Gokuu Son
+id:247 name:Chiyo Mihama
+id:248 name:Nayuki  Minase
+id:249 name:Yuki  Nagato
+id:250 name:Ayu Tsukimiya
+id:251 name:Haruhi  Suzumiya
+id:252 name:Kyon 
+id:253 name:Mikuru  Asahina
+id:254 name:Itsuki  Koizumi
+id:255 name:Ryouko  Asakura
+id:256 name: Tsuruya
+id:257 name:  Taniguchi
+id:258 name:  Kunikida
+id:259 name:Satoshi Imamiya
+id:260 name:Arumi  Asahina
+id:261 name:Masayoshi Asahina
+id:262 name:Mune-mune  
+id:263 name:Sayaka  Imamiya
+id:264 name:Eutus  
+id:265 name:Aki  
+id:266 name:Kouhei  
+id:267 name:Satsuki  Kusakabe
+id:268 name:Mei  Kusakabe
+id:269 name:Totoro  
+id:270 name:Kanta  Oogaki
+id:271 name:Nekobasu 
+id:272 name:Kaname Chidori
+id:273 name:Teletha Testarossa
+id:274 name:Tenchi  Masaki
+id:275 name:Pacifica Casull
+id:276 name:Shannon  Casull
+id:277 name:Raquel  Casull
+id:278 name:Christopher  Armalite
+id:279 name:Winia  Chester
+id:280 name:Leopold Scorpse
+id:281 name:Ayu  Tateishi
+id:282 name:Nina Sakura
+id:283 name:Tetsushi Kaji
+id:284 name:Hiroki  Tsujiai
+id:285 name:Yuta  Kirishima
+id:286 name:Rio 
+id:287 name:Maya Orihara
+id:288 name:Hakuoro 
+id:289 name:Eruruu  
+id:290 name:Aruruu 
+id:291 name:Oboro  
+id:292 name:Benawi  
+id:293 name:Kurou  
+id:294 name:Touka  
+id:295 name:Yuzuha 
+id:296 name:Karura 
+id:297 name:Urtori 
+id:298 name:Kamyu 
+id:299 name:Robin  Sena
+id:300 name:Amon  
+id:301 name:Michael  Lee
+id:302 name:Haruto  Sakaki
+id:303 name:Miho  Karasuma
+id:304 name:Yurika  Doujima
+id:305 name:Sanji 
+id:306 name:Rock Lee
+id:307 name:Guy  Might
+id:308 name:Yoshiyuki  Taira
+id:309 name:Chopper  Tony Tony
+id:310 name:Hanamichi Sakuragi
+id:311 name:Kaede Rukawa
+id:312 name:Ryota Miyagi
+id:313 name:Hisashi Mitsui
+id:314 name:Takenori Akagi
+id:315 name:Mai  Tokiha
+id:316 name:Yuuichi  Aizawa
+id:317 name:Shiori  Misaka
+id:318 name:Makoto  Sawatari
+id:319 name:Mai  Kawasumi
+id:320 name:Akiko  Minase
+id:321 name:Kaori  Misaka
+id:322 name:Mishio  Amano
+id:323 name:Ritsuka Aoyagi
+id:324 name:Ryouma Echizen
+id:325 name:Kunimitsu  Tezuka
+id:326 name:Shuichiro  Oishi
+id:327 name:Shuusuke Fuji
+id:328 name:Eiji  Kikumaru
+id:329 name:Takashi Kawamura
+id:330 name:Sadaharu  Inui
+id:331 name:Takeshi Momoshiro
+id:332 name:Kaoru Kaidou
+id:333 name:Sayuri  Kurata
+id:334 name:Jun  Kitagawa
+id:335 name:Yamato  Akitsuki
+id:336 name:Suzuka  Asahina
+id:337 name:Honoka  Sakurai
+id:338 name:Miki  Hashiba
+id:339 name:Yasunobu  Hattori
+id:340 name:Yuuka  Saotome
+id:341 name:Megumi  Matsumoto
+id:342 name:Souichi  Miyamoto
+id:343 name:Tetsuhiko  Kinugasu
+id:344 name:Ayano  Fujikawa
+id:345 name:Miho  Fujikawa
+id:346 name:Kazuki  Tsuda
+id:347 name:Nana  Shirakawa
+id:348 name:Arima  Emerson
+id:349 name:Kenji  Kobayakawa
+id:350 name:Suzune  Asahina
+id:351 name:Greed  
+id:352 name:Shinobu  Morita
+id:353 name:Hagumi Hanamoto
+id:354 name:Yuuta  Takemoto
+id:355 name:Takumi  Mayama
+id:356 name:Ayumi Yamada
+id:357 name:Yukino Miyazawa
+id:358 name:Souichirou  Arima
+id:359 name:Nao  Yuuki
+id:360 name:Alyssa  Searrs
+id:361 name:Joseph  Glear
+id:362 name:Miyu 
+id:363 name:Shizuru  Fujino
+id:364 name:Akira  Okuzaki
+id:365 name:Shizuru Viola
+id:366 name:Kagura  Souma
+id:367 name:Momiji  Souma
+id:368 name:Hatori Souma
+id:369 name:Hatsuharu Souma
+id:370 name:Ayame  Souma
+id:371 name:Kisa  Souma
+id:372 name:Hiro  Souma
+id:373 name:Ritsu  Souma
+id:374 name:Akito Souma
+id:375 name:Arisa Uotani
+id:376 name:Saki Hanajima
+id:377 name:Kazuma Souma
+id:378 name:Akari Mizunashi
+id:379 name:Alicia Florence
+id:380 name:Aika S. Granzchesta
+id:381 name:Akira E. Ferrari
+id:382 name:Alice Carroll
+id:383 name:Athena Glory
+id:384 name:Chihiro Ogino
+id:385 name:Haku 
+id:386 name:Haruko  Kamio
+id:387 name:Kanna 
+id:388 name:Uraha  
+id:389 name:Ryuuya  
+id:390 name:Mugen  
+id:391 name:Jin  
+id:392 name:Fuu  Kasumi
+id:393 name:Matsunosuke  Shibui
+id:394 name:Tomonoshin  Shibui
+id:395 name:Ryujiro  Sasaki
+id:396 name:Seizou  Kasumi
+id:397 name:Oniwakamaru  
+id:398 name:Hotaru  
+id:399 name:Rikiei  Nagatomi
+id:400 name:Daigorou  
+id:401 name:Osuzu  
+id:402 name:Sousuke  Kawara
+id:403 name:Heitarou Kawara
+id:404 name:Ishimatsu  
+id:405 name:Manzou Sakami
+id:406 name:Moronobu  Hishikawa
+id:407 name:Isaac Kitching
+id:408 name:Shinsuke  
+id:409 name:Nagamitsu  Sakonshougen
+id:410 name:Bunta  Ogura
+id:411 name:Budoukiba  
+id:412 name:Enshirou  Mariya
+id:413 name:Motoharu Yano
+id:414 name:Diva  
+id:415 name:Brandon Heat
+id:416 name:Harunobu  Madarame
+id:417 name:Lelouch Lamperouge
+id:418 name:Albert  de Morcerf
+id:419 name:The Count of Monte Cristo 
+id:420 name:Haydée  Tebelin
+id:421 name:Franz  d'Epinay
+id:422 name:Guts 
+id:423 name:Casca 
+id:424 name:Griffith 
+id:425 name:Ginko 
+id:426 name:Kozue  Aoba
+id:427 name:Mansairaku 
+id:428 name:Hikaru Minamoto
+id:429 name:Yukari Hayasaka
+id:430 name:George  Koizumi
+id:431 name:Isabella Yamamoto
+id:432 name:Arashi  Nagase
+id:433 name:Miwako  Sakurada
+id:434 name:Eikichi  Onizuka
+id:435 name:Sorata  Arisugawa
+id:436 name:Kamui  Shirou
+id:437 name:Arashi  Kishu
+id:438 name:Yuzuriha  Nekoi
+id:439 name:Subaru  Sumeragi
+id:440 name:Karen  Kasumi
+id:441 name:Seiichiro  Aoki
+id:442 name:Fuuma  Monou
+id:443 name:Yuto  Kigai
+id:444 name:Satsuki  Yatoji
+id:445 name:Kusanagi  Shiyu
+id:446 name:Seishirou  Sakurazuka
+id:447 name:Nataku  
+id:448 name:Shogo  Asagi
+id:449 name:Kakyo  Kuzuki
+id:450 name:Tamami  Chanohata
+id:451 name:Ryuushi  Shiratori
+id:453 name:Kyouji Kagami
+id:454 name:Judeau  
+id:455 name:Urumi  Kanzaki
+id:456 name:Cloud Strife
+id:457 name:Dutch  
+id:458 name:Revy 
+id:459 name:Rokurou Okajima
+id:460 name:Benny 
+id:461 name:Balalaika 
+id:462 name:Eda 
+id:463 name:Mihael Keehl
+id:464 name:Nate River
+id:465 name:Blue  
+id:466 name:Jin  Tsurasawa
+id:467 name:Gorou Honda
+id:468 name:Karin  Maaka
+id:469 name:Kenta  Usui
+id:470 name:Winner  Sinclair
+id:471 name:Anju  Maaka
+id:472 name:Hikaru  Shiina
+id:473 name:Ren  Maaka
+id:474 name:Henry  Maaka
+id:475 name:Carrera  Maaka
+id:476 name:Maki  Tokitou
+id:477 name:Renton  Thurston
+id:478 name:Akari  Kanzaki
+id:479 name:Ichino  Yanagida
+id:480 name:Jessie  Gartland
+id:481 name:Tanya  Natdhipytadd
+id:482 name:Ayla V.  Roznovsky
+id:483 name:Chris  Christopher
+id:484 name:Anna  Respighi
+id:485 name:Kyou Mibu
+id:486 name:Kyoushirou Mibu
+id:487 name:Yuya  Shiina
+id:488 name:Hidetada Tokugawa
+id:489 name:Migeira  
+id:490 name:Yukimura  Sanada
+id:491 name:Sasuke  Sarutobi
+id:492 name:Okuni Izumo no
+id:493 name:Saizou  Kirigakure
+id:494 name:Seita  
+id:495 name:Setsuko  
+id:496 name:Shirou  Emiya
+id:497 name:Saber 
+id:498 name:Rin  Toosaka
+id:499 name:Lancer  
+id:500 name:Sakura  Matou
+id:501 name:Shinji  Matou
+id:502 name:Rider 
+id:503 name:Illyasviel von Einzbern
+id:504 name:Berserker  
+id:505 name:Taiga Fujimura
+id:506 name:Kirei  Kotomine
+id:507 name:Howl 
+id:508 name:Sophie  Hatter
+id:509 name:Markl  
+id:510 name:Witch of the Waste  
+id:511 name:Yuzuru  Narita
+id:512 name:Tooru  Kouno
+id:513 name:Yuujirou Shihoudani
+id:514 name:Mikoto Yutaka
+id:515 name:Akira Sakamoto
+id:516 name:Shuuya  Arisada
+id:517 name:Ryuusaki  Kazushi
+id:518 name:Hikaru  Shidou
+id:519 name:Umi Ryuuzaki
+id:520 name:Fuu Hououji
+id:521 name:Clef  
+id:522 name:Ferio  
+id:523 name:Presea  
+id:524 name:Emeraude 
+id:525 name:Zagato 
+id:526 name:Sora Hashiba
+id:527 name:Sunao Fujimori
+id:528 name:Matsuri  Honjou
+id:529 name:Kai  Nanami
+id:530 name:Shinichirou  Minato
+id:531 name:Gaku  Ichikawa
+id:532 name:Kai  Nagase
+id:533 name:Shizuku  Tsukishima
+id:534 name:Seiji  Amasawa
+id:535 name:Yuuko  Harada
+id:536 name:Seiya  Tsukishima
+id:537 name:Asako  Tsukishima
+id:538 name:Shiho  Tsukishima
+id:539 name:Nausicaä  
+id:540 name:Lord Yupa  
+id:541 name:Kushana  
+id:542 name:Kurotowa  
+id:543 name:Asbel  
+id:544 name:Lastelle 
+id:545 name:Himeno  Awayuki
+id:546 name:Hayate  
+id:547 name:Sasame  
+id:548 name:Kei  
+id:549 name:Goh  
+id:550 name:Mannen  
+id:551 name:Hajime  
+id:552 name:Shin  
+id:553 name:Takako 
+id:554 name:Mayune  Awayuki
+id:555 name:Mawata  Awayuki
+id:556 name:Kaoru  Awayuki
+id:557 name:Natsue  Awayuki
+id:558 name:Kallen Stadtfeld
+id:559 name:Suzaku Kururugi
+id:560 name:Creed  Diskenth
+id:561 name:Charden  Flamberg
+id:562 name:Kyouko  Kirisaki
+id:563 name:Kimura 
+id:564 name:Uryuu Ishida
+id:565 name:Jo 
+id:566 name:Meg  
+id:567 name:Shizuka  Doumeki
+id:568 name:Himawari  Kunogi
+id:569 name:Zashiki-warashi 
+id:570 name:Miu Matsuoka
+id:571 name:Chika Itou
+id:572 name:Nobue Itou
+id:573 name:Matsuri  Sakuragi
+id:574 name:Ana  Coppola
+id:575 name:Yasutora Sado
+id:579 name:Megumi  Momono
+id:580 name:Sayoko  Kurosaki
+id:581 name:Asami  Kurosaki
+id:582 name:Yukio  Haibara
+id:583 name:Ryuusei  Johnny
+id:584 name:Miyabi  Shirogane
+id:585 name:Tsubasa  Yamabuki
+id:586 name:Risona  Aizawa
+id:587 name:Mizuho  Amane
+id:588 name:Erika  Vermillion
+id:589 name:Hiro  Utsugi
+id:590 name:Satsuki  Matsuba
+id:591 name:Michiyo Asagi
+id:592 name:Ushimitsu  Minazuki
+id:593 name:Yu  Minazuki
+id:594 name:Mahiru  Minazuki
+id:595 name:Tachibana  
+id:596 name:Sakura  Utsugi
+id:597 name:Pippin  
+id:598 name:Rickert  
+id:599 name:Corkus  
+id:600 name:Zodd Nosferatu
+id:601 name:Alucard 
+id:602 name:Gambino  
+id:603 name:Integra Fairbrook Wingates Hellsing
+id:604 name:Void  
+id:605 name:Slan 
+id:606 name:Alexander Anderson
+id:607 name:Ubik  
+id:608 name:Conrad  
+id:609 name:Walter C. Dornez
+id:610 name:Enrico  Maxwell
+id:611 name:Gaston  
+id:612 name:Pip  Bernadotte
+id:613 name:Major 
+id:614 name:Charlotte Beatrix Marie  Rhody Windam
+id:615 name:King of Midland  
+id:616 name:Rip  Van Winkle
+id:617 name:Shousa  
+id:618 name:Tubalcain Alhambra
+id:619 name:Zorin  Blitz
+id:620 name:Schrödinger 
+id:621 name:Jan  Valentine
+id:622 name:Luke  Valentine
+id:623 name:Doc  
+id:624 name:Seras Victoria
+id:625 name:Yumiko Takagi
+id:626 name:Heinkel  Wolfe
+id:627 name:Haruko Haruhara
+id:628 name:Kitsurubami  
+id:629 name:Kamon  Nandaba
+id:630 name:Naota Nandaba
+id:631 name:Eri  Ninamori
+id:632 name:Mamimi  Samejima
+id:633 name:Canti 
+id:634 name:Amarao 
+id:635 name:Masashi  Masamune
+id:636 name:Gaku  Manabe
+id:637 name:Yuuma  Kohinata
+id:638 name:Haruhi  Kamisaka
+id:639 name:Anri  Hiiragi
+id:640 name:Otoha  Kohinata
+id:641 name:Hachisuke Takamizo
+id:642 name:Vincent Law
+id:643 name:Re-l Mayer
+id:644 name:Pino  
+id:645 name:Iggy  
+id:646 name:Raul  Creed
+id:647 name:Kristeva  
+id:648 name:Daedalus  Yumeno
+id:649 name:Ergo Proxy 
+id:650 name:Lust  
+id:651 name:Envy  
+id:652 name:Yuzuki  Kaede
+id:653 name:Yuu  Sakurano
+id:654 name:Nagomi  Fujikura
+id:655 name:Ryuuougi  Kusunoki
+id:656 name:Akari  Midorikawa
+id:657 name:Nanako  Aoi
+id:658 name:Karada  Iokawa
+id:659 name:Shouko  Nogami
+id:660 name:Hiro Iokawa
+id:661 name:Tetsumasa Amino
+id:662 name:Touko  Amino
+id:663 name:Alice L.  Malvin
+id:664 name:Randal  Oland
+id:665 name:Yanagi Sakoshita
+id:666 name:Kurei  
+id:667 name:Kagerou 
+id:668 name:Ranma Saotome
+id:669 name:Akane Tendou
+id:670 name:Tsunayoshi Sawada
+id:671 name:Reborn 
+id:672 name:Gintoki Sakata
+id:673 name:Shinpachi Shimura
+id:674 name:Kagura 
+id:675 name:Ginta Toramizu
+id:676 name:Yukio Tanaka
+id:677 name:Pu'ar 
+id:678 name:Bulma 
+id:679 name:Asuna Kagurazaka
+id:680 name:Hazumu  Osaragi
+id:681 name:Yasuna  Kamiizumi
+id:682 name:Tomari  Kurusu
+id:683 name:Ayuki  Mari
+id:684 name:Asuta  Soro
+id:685 name:Namiko  Tsuki
+id:686 name:Hitoshi  Sora
+id:687 name:Jan  Puu
+id:688 name:Touru  Osaragi
+id:689 name:Kahoru  Osaragi
+id:690 name:Uruno  
+id:691 name:Sunako Nakahara
+id:692 name:Shuuichi  Shindou
+id:693 name:Eiri  Yuki
+id:694 name:Hiroshi Nakano
+id:695 name:Suguru  Fujisaki
+id:696 name:Tohma  Seguchi
+id:697 name:Tatsuha  Uesugi
+id:698 name:Mika  Seguchi
+id:699 name:  Sakano
+id:700 name:Claude Winchester
+id:701 name:Nana Komatsu
+id:702 name:Nana  Osaki
+id:703 name:Kyou  Yamada
+id:704 name:Asu  Yamada
+id:705 name:Genzou  Hayashi
+id:706 name:Kinko  Echigoya
+id:707 name:Ginko  Echigoya
+id:708 name:Ranko  Saegusa
+id:709 name:Masao  Ichinokura
+id:710 name:Naoya  Kirihara
+id:711 name:Naoto  Kirihara
+id:712 name:Shouko  Futami
+id:713 name:Meryl Stryfe
+id:714 name:Milly  Thompson
+id:715 name:Legato  Bluesummers
+id:716 name:Guu  
+id:717 name:Kotomi  Shionzaki
+id:718 name:Kenzou  Tenma
+id:719 name:Johan Liebert
+id:720 name:Anna Liebert
+id:721 name:Heinrich  Lunge
+id:722 name:Nicholas D. Wolfwood
+id:723 name:Nami 
+id:724 name:Usopp 
+id:725 name:Buggy 
+id:726 name:Vivi Nefertari
+id:727 name:Shanks 
+id:728 name:Zabuza Momochi
+id:729 name:Yuusuke  Urameshi
+id:730 name:Kazuma Kuwabara
+id:731 name:Kurama 
+id:732 name:Hiei 
+id:733 name:Keiko  Yukimura
+id:734 name:Botan  
+id:735 name:Genkai  
+id:736 name:Yukina  
+id:737 name:Kouta  
+id:738 name:Lucy 
+id:740 name:Nana 
+id:741 name:Yuka  
+id:742 name:Mariko Kurama
+id:743 name:Mayu  
+id:744 name:Setsuna Sakurazaki
+id:745 name:Shizuma Hanazono
+id:746 name:Nicol  Amarfi
+id:747 name:Utena  Tenjou
+id:748 name:Anthy Himemiya
+id:749 name:Akio  Ootori
+id:750 name:Chuchu  
+id:751 name:Miki Kaoru
+id:752 name:Juri  Arisugawa
+id:753 name:Touga  Kiryuu
+id:754 name:Nanami  Kiryuu
+id:755 name:Kyouichi  Saionji
+id:756 name:Belldandy  
+id:757 name:Aerith Gainsborough
+id:758 name:Tifa  Lockhart
+id:759 name:Yusuke  Mizuki
+id:760 name:Rouge  
+id:761 name:Kaige  
+id:762 name:Meige  
+id:763 name:Hiroshi  Karigari
+id:764 name:Marie  Karigari
+id:766 name:Hibiki  Kennou
+id:767 name:Amagumo 
+id:768 name:Sei  
+id:769 name:Amy  
+id:770 name:Kyouhei  Tachibana
+id:771 name:Maria  
+id:772 name:Natsuki Kuga
+id:773 name:Mikoto  Minagi
+id:774 name:Layla  Hamilton
+id:775 name:Sora  Naegino
+id:776 name:May  Wong
+id:777 name:Leon  Oswald
+id:778 name:Tyki Mikk
+id:779 name:Lavi 
+id:780 name:Road  Kamelot
+id:781 name:Melissa  Mao
+id:782 name:Jirou Mochizuki
+id:783 name:Kotarou  Mochizuki
+id:784 name:Mimiko  Katsuragi
+id:785 name:Cassandra Jill Warlock
+id:786 name:Sei  
+id:787 name:Zelman  Clock
+id:788 name:Kelly  Wong
+id:789 name:Chan  
+id:790 name:Johan  Tsang
+id:791 name:Alice  Eve
+id:792 name:Yafuri  Chao
+id:793 name:Hibari  Kusunogi
+id:794 name:Adam  Wong
+id:795 name:Midori  Sugiura
+id:796 name:Nagi  Homura
+id:797 name:Cornelia li Britannia
+id:798 name:Kumiko Yamaguchi
+id:799 name:Shin Sawada
+id:800 name:Teruo Kumai
+id:801 name:Haruhiko Uchiyama
+id:802 name:Tomoya  Shinohara
+id:803 name:Kyotarou Ooshima
+id:804 name:Takeshi Noda
+id:805 name:Rosetta  Passel
+id:806 name:Urd  
+id:807 name:Skuld  
+id:808 name:Keiichi Morisato
+id:809 name:Anko  Mitarashi
+id:810 name:Sae  Sawanoguchi
+id:811 name:Nanaka  Nakatomi
+id:812 name:Akane  Aikawa
+id:813 name:Takeo  Takakura
+id:814 name:Ayanojou  Aburatsubo
+id:815 name:Leo  Tsushima
+id:816 name:Sunao Konoe
+id:817 name:Shizuka  Asada
+id:818 name:Kinu Kanisawa
+id:819 name:Nagomi Yashi
+id:820 name:Otome  Kurogane
+id:821 name:Shinichi Samesuga
+id:822 name:Subaru  Date
+id:823 name:Erika Kiriya
+id:824 name:Yoshimi  Satou
+id:825 name:Noriko  Nishizaki
+id:826 name:Youhei  Murata
+id:827 name:Inori Oeyama
+id:828 name:Honoka  Konoe
+id:829 name:Heizou  Tachibana
+id:830 name:Tsuchinaga  
+id:831 name:Nodoka  Yashi
+id:832 name:Mana  Uraga
+id:833 name:Tonfa  Yan
+id:834 name:Ichise  
+id:835 name:Misa Amane
+id:836 name:Saya  Otonashi
+id:837 name:Riku  Miyagusuku
+id:838 name:Kai  Miyagusuku
+id:839 name:Souichirou  Nagi
+id:840 name:Bob  Makihara
+id:841 name:Maya  Natsume
+id:842 name:Aya  Natsume
+id:843 name:Masataka  Takayanagi
+id:844 name:Mitsuomi  Takayanagi
+id:845 name:Mamoru Takamura
+id:846 name:Masaru Aoki
+id:847 name:Tatsuya  Kimura
+id:848 name:Joel  Goldschmidt VI
+id:849 name:Haji 
+id:850 name:Kaori  Kinjou
+id:851 name:David  
+id:852 name:George  Miyagusuku
+id:853 name:Joel Goldschmidt
+id:854 name:Irène  
+id:856 name:Van  Argiano
+id:857 name:Miranda  Lotto
+id:858 name:Millennium Earl 
+id:859 name:Mother  Kinjou
+id:860 name:Ted A.  Adams
+id:861 name:Phillip  Rosenberg
+id:862 name:Anna  Marie
+id:863 name:Grigori 
+id:864 name:Lewis 
+id:865 name:Mao  Jahana
+id:866 name:Amshel  Goldsmith
+id:867 name:Solomon  Goldsmith
+id:868 name:Moses  
+id:869 name:James  Ironside
+id:870 name:Nathan  Mahler
+id:871 name:Lulu  
+id:872 name:Aston  Collins
+id:873 name:Karman  
+id:874 name:Shiho  Munakata
+id:875 name:Akane  Higurashi
+id:876 name:Kazuya  Kurauchi
+id:877 name:Sarah  Dupont
+id:878 name:Ken  Robbins
+id:879 name:Cathy  Taymor
+id:880 name:Yuri  Killian
+id:881 name:Macquarie  
+id:882 name:Hajime  Arakawa
+id:883 name:Sonou  Mori
+id:884 name:Yutaka  Tamaru
+id:885 name:Keiichi  Tamaru
+id:886 name:Gudrif  
+id:887 name:Darth  
+id:888 name:Kyuu  Renjo
+id:889 name:Megumi Minami
+id:890 name:Ryuu  Amakusa
+id:891 name:Kazuma  Narusawa
+id:892 name:Kintarou  Tooyama
+id:893 name:Monique  
+id:894 name:Min  
+id:895 name:Akihiro  Okamura
+id:896 name:Haruhiko  Amami
+id:897 name:Riko  Fukamine
+id:898 name:Kirino Konosaka
+id:899 name:Chisa  Fujimiya
+id:900 name:Rinka  Hokazono
+id:901 name:Yukari  Kamishiro
+id:902 name:Masaki Edo
+id:903 name:Nami  Sato
+id:904 name:Rangiku  Matsumoto
+id:905 name:Soi Fon 
+id:906 name:Renji Abarai
+id:907 name:Byakuya  Kuchiki
+id:908 name:Yoruichi Shihouin
+id:909 name:Kenpachi Zaraki
+id:910 name:Yachiru  Kusajishi
+id:911 name:Zangetsu  
+id:912 name:Kyon's Sister 
+id:913 name:Vegeta 
+id:914 name:Piccolo 
+id:915 name:Takayuki  Narumi
+id:916 name:Haruka  Suzumiya
+id:917 name:Mitsuki  Hayase
+id:918 name:Akane  Suzumiya
+id:919 name:Shinji  Taira
+id:920 name:Ayu  Daikuuji
+id:921 name:Mayu  Tamano
+id:922 name:Ayumu  Aizawa
+id:923 name:Ryousuke  Sakakura
+id:924 name:Miki  Miyama
+id:925 name:Miku  Miyama
+id:926 name:Heigorou  Suzuki
+id:927 name:Wakkun  
+id:928 name:Takuma  Kaburaki
+id:929 name:Shione  Unno
+id:930 name:Akira  Sukawara
+id:931 name:Shirou  Doumaru
+id:932 name:Kisa  Tanigawa
+id:933 name:Rieko  Yamato
+id:934 name:Masaki Makabe
+id:935 name:Shigeki  Kobayakawa
+id:936 name:Hana  Tokimiya
+id:937 name:Jirou  Hatori
+id:938 name:Asako  Toudou
+id:939 name:Akiyuki  Kishiro
+id:940 name:Dosshiru  
+id:941 name:Shisshin  
+id:942 name:Junko  Aizawa
+id:943 name:Mika  Miyama
+id:944 name:Sena Kobayakawa
+id:945 name:Youichi Hiruma
+id:946 name:Ryokan Kurita
+id:947 name:Seijuurou Shin
+id:948 name:Daikichi  Komusubi
+id:949 name:Kyousuke  Imadori
+id:950 name:Karen Ichijou
+id:951 name:Kaede Nagase
+id:952 name:Chisame Hasegawa
+id:953 name:Evangeline Athanasia Katherine McDowell
+id:954 name:Nodoka Miyazaki
+id:955 name:Tarou Raimon
+id:956 name:Haruto  Sakuraba
+id:957 name:Natsuhiko Taki
+id:958 name:Mui  
+id:959 name:Julia  Silverstein
+id:960 name:Riku  Aoba
+id:961 name:Harry  McKenzie
+id:962 name:Sayuri  Amamiya
+id:963 name:Tsukasa  Kasuga
+id:964 name:Masakazu Tougou
+id:965 name:Mina  Yayoi
+id:966 name:Koya  Inukai
+id:967 name:Lala Gonzalez
+id:968 name:Hiyokokko 
+id:969 name:Itoko  Osakabe
+id:970 name:Sarah  Adiemus
+id:971 name:Kentaro  Nara
+id:972 name:Jirou  Yoshidayama
+id:973 name:Ganji Nishimoto
+id:974 name:Momo  Aikawa
+id:975 name:Ayame  Shiina
+id:976 name:Itta Suzuki
+id:977 name:Kyohei  Doujima
+id:978 name:Yuuka  Fujikawa
+id:979 name:Yusuke  Kayama
+id:980 name:Misora  Kasuga
+id:981 name:Konoka Konoe
+id:982 name:Ako  Izumi
+id:983 name:Sayo  Aisaka
+id:984 name:Chachamaru  Karakuri
+id:985 name:Haruna Saotome
+id:986 name:Akira  Okouchi
+id:987 name:Yuuna Akashi
+id:988 name:Kazumi  Asakura
+id:989 name:Misa  Kakizaki
+id:990 name:Madoka  Kugimiya
+id:991 name:Yue Ayase
+id:992 name:Kuu Fei
+id:993 name:Makie Sasaki
+id:994 name:Chizuru Naba
+id:995 name:Sakurako  Shiina
+id:996 name:Ayaka Yukihiro
+id:997 name:Satsuki  Yotsuba
+id:998 name:Fuuka  Narutaki
+id:999 name:Mana  Tatsumiya
+id:1000 name:Chao  Lingshen
+id:1001 name:Fumika  Narutaki
+id:1002 name:Zazie  Rainyday
+id:1003 name:Satomi  Hakase
+id:1004 name:Natsumi  Murakami
+id:1005 name:Shizuna  Minamoto
+id:1006 name:Hinoto 
+id:1007 name:Kotori  Monou
+id:1008 name:Kanoe  
+id:1009 name:Di Gi Charat 
+id:1010 name:Petit Charat 
+id:1011 name:Takurou  Senba
+id:1012 name:Majin Buu 
+id:1013 name:Gene  Starwind
+id:1014 name:Melfina 
+id:1015 name:James Hawking
+id:1016 name:Aisha  Clanclan
+id:1017 name:Suzuka 
+id:1018 name:D 
+id:1019 name:Left Hand  
+id:1020 name:Leila  
+id:1021 name:Meier  Link
+id:1022 name:Charlotte  Elbourne
+id:1023 name:Kyle  Marcus
+id:1024 name:Grove  Marcus
+id:1025 name:Benge  
+id:1026 name:Borgoff  Marcus
+id:1027 name:Nolt  Marcus
+id:1028 name:Barbarois  
+id:1029 name:Caroline  
+id:1030 name:Mashira  
+id:1032 name:Rei-Ginsei  
+id:1033 name:Dan  Lang
+id:1034 name:Magnus Lee
+id:1035 name:Ramika  Lee
+id:1036 name:Albert Chamomile
+id:1037 name:Keitarou Urashima
+id:1038 name:Naru  Narusegawa
+id:1039 name:Mutsumi  Otohime
+id:1040 name:Shinobu  Maehara
+id:1041 name:Motoko Aoyama
+id:1042 name:Kaolla Su
+id:1043 name:Mitsune Konno
+id:1044 name:Arsene Lupin III
+id:1045 name:Daisuke  Jigen
+id:1046 name:Goemon  Ishikawa XIII
+id:1047 name:Fujiko  Mine
+id:1048 name:Kouichi Zenigata
+id:1049 name:Ahiru Arima
+id:1050 name:Fakir 
+id:1051 name:Myuuto 
+id:1052 name:Rue Kuroha
+id:1053 name:Drosselmeyer  
+id:1054 name:Feena  Fam Earthlight
+id:1055 name:Tatsuya  Asagiri
+id:1056 name:Natsuki Takamizawa
+id:1057 name:Mai  Asagiri
+id:1058 name:Sayaka  Hozumi
+id:1059 name:Mia  Clementis
+id:1060 name:Karen  Clavius
+id:1061 name:Midori  Tooyama
+id:1062 name:Jin  Takamizawa
+id:1063 name:Samon  Takamizawa
+id:1064 name:Takeshi  Takano
+id:1065 name:Wreathlit Noel
+id:1066 name:Sefiria  Fam Earthlight
+id:1067 name:Haruhi  Takamizawa
+id:1068 name:Chiharu  Asagiri
+id:1069 name:Jürgen von Klügel
+id:1070 name:Lyones Theo  Earthlight
+id:1071 name:Assistant  
+id:1072 name:Suigintou 
+id:1073 name:Shinku 
+id:1074 name:Laplace no Ma 
+id:1075 name:Sarah  
+id:1076 name:Gin  
+id:1077 name:Hana  
+id:1078 name:Miyuki  
+id:1079 name:Takamichi T. Takahata
+id:1080 name:Grimmjow  Jaegerjaquez
+id:1081 name:Ulquiorra Cifer
+id:1082 name:Wonderweiss  Margela
+id:1083 name:Ryuuken Ishida
+id:1084 name:Shinji  Hirako
+id:1085 name:Kaname  Tousen
+id:1086 name:Sousuke  Aizen
+id:1087 name:Gin Ichimaru
+id:1088 name:Jirou Souzousuke Shunsui Kyouraku
+id:1089 name:Kon 
+id:1090 name:Kuukaku  Shiba
+id:1091 name:Ganju  Shiba
+id:1092 name:Momo  Hinamori
+id:1093 name:Izuru  Kira
+id:1094 name:Tatsuki  Arisawa
+id:1095 name:Shuuhei  Hisagi
+id:1096 name:Yuzu  Kurosaki
+id:1097 name:Isami  Kondou
+id:1098 name:Suzu Kitamura
+id:1099 name:Saya  
+id:1100 name:Toshimaru  Yoshida
+id:1101 name:Heisuke  Toudou
+id:1102 name:Hajime  Saitou
+id:1104 name:Ayumu  Yamazaki
+id:1105 name:Suiseiseki 
+id:1106 name:Kanaria 
+id:1107 name:Souseiseki 
+id:1108 name:Hinaichigo 
+id:1109 name:Barasuishou 
+id:1110 name:Nunnally Lamperouge
+id:1111 name:C.C. 
+id:1112 name:Gilbert G.P  Guilford
+id:1113 name:Jeremiah Gottwald
+id:1114 name:Euphemia li Britannia
+id:1115 name:Kaname  Ougi
+id:1116 name:Andreas  Darlton
+id:1117 name:Villetta Nu
+id:1118 name:Kusakabe  
+id:1119 name:Kyoushirou Toudou
+id:1120 name:Shirley  Fenette
+id:1121 name:Milly  Ashford
+id:1122 name:Rivalz  Cardemonde
+id:1123 name:Naoto  Kouzuki
+id:1124 name:Nina  Einstein
+id:1125 name:Shinichirou  Tamaki
+id:1126 name:Diethard  Ried
+id:1127 name:Nagata  
+id:1128 name:Clovis  la Britannia
+id:1129 name:Marianne vi Britannia
+id:1130 name:Lloyd Asplund
+id:1131 name:Cécile  Croomy
+id:1132 name:Kewell  Soresi
+id:1133 name:Umehito  Nekozawa
+id:1134 name:Shiro  Takaoji
+id:1135 name:Tooru  Suzushima
+id:1136 name:Ryouji Fujioka
+id:1137 name:Yoshio  Ootori
+id:1138 name:Fuyumi  Ootori
+id:1139 name:Kirimi  Nekozawa
+id:1140 name:Kuretake  
+id:1141 name:Yuuichi  Tate
+id:1142 name:Kanako  Kasugasaki
+id:1143 name:Chizuru  Maihara
+id:1144 name:Hina  Kamishiro
+id:1145 name:Hinako  Tsuwabuki
+id:1146 name:Yasuchika Haninozuka
+id:1147 name:Benio  Amakusa
+id:1148 name:Arai  
+id:1149 name:Yuzuru Suou
+id:1150 name:Eclair  Tonnerre
+id:1151 name:Ikkaku  Madarame
+id:1152 name:Luppi  Antenor
+id:1153 name:D-Roy  Linker
+id:1154 name:Ilforte  Grantz
+id:1155 name:Edrad  Liones
+id:1156 name:Shawlong  Qu Fong
+id:1157 name:Nakeem  Greendina
+id:1158 name:Hiyori  Sarugaki
+id:1159 name:Yammy  Llargo
+id:1160 name:Akesato 
+id:1161 name:Ryouma  Sakamoto
+id:1162 name:Boy  
+id:1163 name:Girl  
+id:1164 name:Nanami Takahashi
+id:1165 name:Masafumi Takeuchi
+id:1166 name:Yuri  Yamamoto
+id:1167 name:Nana  Yamamoto
+id:1168 name:Mayuri  Kurotsuchi
+id:1169 name:Lina Inverse
+id:1170 name:Eika  Ichijou
+id:1171 name:Karen  Sonomiya
+id:1172 name:Otoha  Sakurano
+id:1173 name:Souya  Tougou
+id:1174 name:Ryohei  Tachibana
+id:1175 name:Takumi  Hayami
+id:1176 name:Nanae  Fujieda
+id:1177 name:Oto  Seibi
+id:1178 name:  Kadowaki
+id:1179 name:  Shima
+id:1180 name:Rem  Saverem
+id:1181 name:Aaeru  
+id:1182 name:Neviril  
+id:1183 name:Morinas  
+id:1184 name:Shinichi  Chiaki
+id:1185 name:Megumi Noda
+id:1186 name:Saiko  Tagaya
+id:1187 name:Ryuutarou  Mine
+id:1188 name:Masumi Okuyama
+id:1189 name:Miyu Glear
+id:1190 name:Takumi  Tokiha
+id:1191 name:Natsuki Kruger
+id:1192 name:Iori  
+id:1193 name:Mai Tokiha
+id:1194 name:Sara Gallagher
+id:1195 name:Maya Bryce
+id:1196 name:Juliet Nao Zhang
+id:1197 name:Maria Graceburt
+id:1198 name:Yukariko Steinberg
+id:1199 name:Yohko  Helene
+id:1200 name:Nagi  Daí Artai
+id:1201 name:Sergay Wáng
+id:1202 name:Yamada  
+id:1203 name:Sakomizu  Cardinal
+id:1204 name:Aoi  Senoh
+id:1205 name:Mimi  
+id:1207 name:Mikoto  
+id:1208 name:Akane Soir
+id:1209 name:Chie  Hallard
+id:1210 name:Shiho Huit
+id:1211 name:Irina  Woods
+id:1212 name:Tomoe Marguerite
+id:1213 name:Miya  Clochette
+id:1214 name:Yayoi  Alter
+id:1215 name:Lilie  Adean
+id:1216 name:Erstin  Ho
+id:1217 name:Fia Gross
+id:1218 name:Mashiro  Blan de Windbloom
+id:1219 name:Arika Yumemiya
+id:1220 name:Nina Wáng
+id:1221 name:Midori  
+id:1222 name:Rad  
+id:1223 name:Lumen  
+id:1224 name:Gal  
+id:1225 name:Dyne  
+id:1226 name:Yukino  Chrysant
+id:1227 name:Haruka Armitage
+id:1228 name:Alyssa  
+id:1229 name:Lena Sayers
+id:1230 name:Ein Lu
+id:1231 name:Argos XIV  Cardair
+id:1232 name:Nguyen  Bao
+id:1233 name:Kazuya  Krau-xeku
+id:1234 name:Rosalie Claudel
+id:1235 name:Laura Bianci
+id:1236 name:Karla Bellini
+id:1237 name:John  Smith
+id:1238 name:Aoshi  Shinomori
+id:1239 name:Bit  Cloud
+id:1240 name:Touda 
+id:1241 name:Mikako Kouda
+id:1242 name:Tsutomu  Yamaguchi
+id:1243 name:Kaori  Aso
+id:1244 name:Hiroyuki Tokumori
+id:1245 name:Keroro 
+id:1246 name:Giroro  
+id:1247 name:Tamama  
+id:1248 name:Kururu 
+id:1249 name:Dororo 
+id:1250 name:Kensuke  Aida
+id:1251 name:Ritsuko  Akagi
+id:1252 name:Shigeru  Aoba
+id:1253 name:Kohzou  Fuyutsuki
+id:1254 name:Hikari  Horaki
+id:1255 name:Makoto  Hyuuga
+id:1256 name:Maya  Ibuki
+id:1257 name:Gendou Ikari
+id:1258 name:Yui  Ikari
+id:1259 name:Misato  Katsuragi
+id:1260 name:Ryouji  Kaji
+id:1261 name:Kaworu Nagisa
+id:1262 name:Touji  Suzuhara
+id:1263 name:Auel  Neider
+id:1264 name:Yzak  Joule
+id:1265 name:Hiro  Kunimi
+id:1266 name:Meer  Campbell
+id:1267 name:Gilbert  Durandal
+id:1268 name:Heine  Westenfluss
+id:1270 name:Talia  Gladys
+id:1271 name:Mu La Flaga
+id:1272 name:Mai  Taniyama
+id:1273 name:Kazuya Shibuya
+id:1274 name:Masako  Hara
+id:1275 name:John  Brown
+id:1276 name:Houshou Takigawa
+id:1277 name:Ayako  Matsuzaki
+id:1278 name:Lin  Koujo
+id:1279 name:Neko-sensei 
+id:1280 name:Edel  
+id:1281 name:Uzura  
+id:1282 name:Pique  
+id:1283 name:Lilie  
+id:1284 name:Charlotte Hélène d'Orléans
+id:1285 name:Guiche  de Gramont
+id:1286 name:Kirche Augusta Frederica  von Anhalt-Zerbst
+id:1287 name:Siesta 
+id:1288 name:Montmorency Margarita la Fère de Montmorency
+id:1289 name:Henrietta de Tristain
+id:1290 name:Osmond  
+id:1291 name:Jean  Colbert
+id:1292 name:Chevreuse  
+id:1293 name: Longueville
+id:1294 name:Jean-Jacques Francis  de Wardes
+id:1295 name:Kanta Mizuno
+id:1296 name:Taiko Koizumi
+id:1297 name:Junko  Asagiri
+id:1298 name:Mao  
+id:1299 name:Shou Marufuji
+id:1300 name:Juudai Yuuki
+id:1301 name:Jun Manjoume
+id:1302 name:Daichi Misawa
+id:1303 name:Edo Phoenix
+id:1304 name:Cronos de Medici
+id:1305 name:Asuka Tenjouin
+id:1306 name:Tyranno Kenzan
+id:1307 name:Ryou Marufuji
+id:1308 name:Tamao  Suzumi
+id:1309 name:Chikane  Himemiya
+id:1310 name:Himeko  Kurusugawa
+id:1311 name:Souma  Oogami
+id:1312 name:Tsubasa  
+id:1313 name:Shion Sonozaki
+id:1314 name:Mahoro Andou
+id:1315 name:Suguru  Misato
+id:1316 name:Minawa Andou
+id:1317 name:Slash 
+id:1318 name:Toshiya  Hamaguchi
+id:1319 name:Miyuki  Sakura
+id:1320 name:Rin  Todoroki
+id:1321 name:Chizuko  Ooe
+id:1322 name:Kiyomi  Kawahara
+id:1323 name:Saori  Shikijou
+id:1324 name:Shiro  Amada
+id:1325 name:Aina  Sahalin
+id:1326 name:Terry Sanders Jr.
+id:1327 name:Karen  Joshua
+id:1328 name:Eledore  Massis
+id:1329 name:Michel  Ninorich
+id:1330 name:Kiki  Rosita
+id:1331 name:Ginias  Sahalin
+id:1333 name:Norris  Packard
+id:1335 name:Amuro Ray
+id:1336 name:Char Aznable
+id:1337 name:Bright  Noa
+id:1338 name:Sayla Mass
+id:1339 name:Hayato  Kobayashi
+id:1340 name:Haro  
+id:1341 name:Kamille Bidan
+id:1342 name:Kai  Shiden
+id:1343 name:Tokiko Mima
+id:1344 name:Kuroo Hazama
+id:1345 name:Pinoko 
+id:1347 name:Lowe  Gear
+id:1348 name:Rolan Cehack
+id:1349 name:Fraw  Bow
+id:1350 name:Ryu  Jose
+id:1351 name:Slegger  Law
+id:1352 name:Mirai  Yashima
+id:1353 name:Inuyasha  
+id:1354 name:Kagome  Higurashi
+id:1355 name:Sango  
+id:1356 name:Miroku 
+id:1357 name:Shippo  
+id:1358 name:Sesshoumaru  
+id:1359 name:Kikyou 
+id:1360 name:Kaede  
+id:1361 name:Myouga  
+id:1362 name:Totosai 
+id:1363 name:Hachiemon 
+id:1364 name:Jaken  
+id:1365 name:Rin  
+id:1366 name:Kohaku  
+id:1367 name:Naraku  
+id:1368 name:Kanna  
+id:1369 name:Kagura  
+id:1370 name:Goshinki  
+id:1371 name:Kouga  
+id:1372 name:Ayame  
+id:1373 name:Soubi Agatsuma
+id:1374 name:Yuugi Mutou
+id:1375 name:Yami Yuugi 
+id:1377 name:Katsuya Jounouchi
+id:1378 name:Seto  Kaiba
+id:1379 name:Anzu Mazaki
+id:1380 name:Hiroto Honda
+id:1381 name:Mokuba  Kaiba
+id:1382 name:Jerid  Messa
+id:1383 name:Fa  Yuiry
+id:1384 name:Katz Kobayashi
+id:1385 name:Paptimus  Scirocco
+id:1386 name:Lalah Sune
+id:1387 name:Tatsuma Hiyuu
+id:1388 name:Kyouichi  Houraiji
+id:1389 name:Aoi  Misato
+id:1390 name:Komaki  Sakurai
+id:1391 name:Yuuya  Daigo
+id:1392 name:Kyouko Touno
+id:1393 name:Tendou  Kodzunu
+id:1394 name:Marie Claire  
+id:1395 name:Morihito  Inugami
+id:1396 name:Hisui  Kisaragi
+id:1397 name:Maria  Alucard
+id:1398 name:Domon Kasshu
+id:1399 name:Rain  Mikamura
+id:1400 name:Kyouji  Kasshu
+id:1401 name:Chibodee Crocket
+id:1402 name:Sai Saici
+id:1403 name:George de Sand
+id:1404 name:Argo Gulskii
+id:1405 name:Master Asia 
+id:1406 name:Volkan  
+id:1407 name:Dortin  
+id:1408 name:Shijima  
+id:1409 name:Hajime Saitou
+id:1410 name:Retro  
+id:1411 name:Orphen 
+id:1412 name:Christina  Mackenzie
+id:1413 name:Alfred Izuruha
+id:1414 name:Bernard Wiseman
+id:1415 name:Gai  Murakumo
+id:1416 name:Momoko  Kuzuryuu
+id:1417 name:Koushi  Inuzuka
+id:1418 name:Iroha  Miyamoto
+id:1419 name:Sanae  Nakajima
+id:1420 name:Hanzo  
+id:1421 name:Haman Karn
+id:1422 name:Hakufu Sonsaku
+id:1423 name:Koukin  Shuuyu
+id:1424 name:Shinichi Okazaki
+id:1425 name:Ren  Honjou
+id:1426 name:Shana 
+id:1427 name:Rena Ryuuguu
+id:1428 name:Miharu  Sena Kanaka
+id:1429 name:Yukinari  Sasaki
+id:1430 name:Kirie  Kojima
+id:1431 name:Kazuharu  Fukuyama
+id:1432 name:Risa Fukuyama
+id:1433 name:Koyomi  Hare Nanaka
+id:1434 name:Tomoka  Lana Jude
+id:1435 name:Ebi  
+id:1436 name:With 
+id:1437 name:Emiko  Niwa
+id:1438 name:Kosuke  Niwa
+id:1439 name:Daiki  Niwa
+id:1440 name:Takeshi  Saehara
+id:1441 name:Towa no Shirube
+id:1442 name:Mio  Hio
+id:1443 name:Adonis  
+id:1444 name:Ayaka  Hatori
+id:1445 name:Bianca von  Vandembagu
+id:1446 name:Ehrlich von  Vandembagu
+id:1447 name:Freedert  
+id:1448 name:Ispector Saehara
+id:1449 name:  Kaseta
+id:1450 name:Menou  Kurashina
+id:1451 name:Misaki  Nishizawa
+id:1452 name:Kei Hiwatari
+id:1453 name:Second Hand of Time  
+id:1454 name:Mizuho Miyanokouji
+id:1455 name:Mariya  Mikado
+id:1456 name:Shion  Juujou
+id:1457 name:Yukari  Kamioka
+id:1458 name:Kana  Suouin
+id:1459 name:Takako  Itsukushima
+id:1460 name:Ichiko  Takashima
+id:1461 name:Hisako  Kajiura
+id:1462 name:Kimie  Sugawara
+id:1463 name:Kei  Takanashi
+id:1464 name:Michiko  Takane
+id:1465 name:Eisen  
+id:1466 name:Yasuaki  Abe no
+id:1467 name:Tomomasa  Tachibana no
+id:1468 name:Shimon  Nagareyama
+id:1469 name:Inori  
+id:1470 name:Takamichi  Fujiwara no
+id:1471 name:Yorihisa  Minamoto no
+id:1472 name:Tenma  Morimura
+id:1473 name:Akane  Motomiya
+id:1474 name:Suzu  Edogawa
+id:1475 name:Youko  
+id:1476 name:Ran  Morimura
+id:1477 name:Fuji-hime 
+id:1478 name:Akuram  
+id:1479 name:Iktidal  
+id:1480 name:Shirin  
+id:1481 name:Sefuru  
+id:1482 name:Kaede  Fuyou
+id:1483 name:Lisianthus Eustoma
+id:1484 name:Primula 
+id:1485 name:Mayumi  Thyme
+id:1486 name:Asa Shigure
+id:1487 name:Kareha  
+id:1488 name:Ryou  Bakura
+id:1489 name:Yami Bakura 
+id:1490 name:Kazuma 
+id:1491 name:Kanami  Yuta
+id:1492 name:Ryuhou  Ryu
+id:1493 name:Naoyuki  Asaba
+id:1494 name:Kana  Iriya
+id:1495 name:Akiho  Sudou
+id:1496 name:Kunihiro  Suizenji
+id:1497 name:Enomoto  
+id:1498 name:Mayumi  Shiina
+id:1499 name:Yuuko  Asaba
+id:1500 name:Taizou  Kawaguchi
+id:1501 name:Miho  Nosaka
+id:1502 name:Ayato  Kamina
+id:1503 name:Haruka  Shitow
+id:1504 name:Reika Mishima
+id:1505 name:Quon  Kisaragi
+id:1506 name:Yuiko  Hawatari
+id:1507 name:Kio  Kaidou
+id:1508 name:Hitomi  Shinonome
+id:1509 name:Yayoi  Shioiri
+id:1510 name:Seimei Aoyagi
+id:1511 name:William B. Baxter
+id:1512 name:Holland  Novak
+id:1513 name:Nerine 
+id:1514 name:Rin  Tsuchimi
+id:1515 name:Nadeshiko  Benibara
+id:1516 name:Ama  Shigure
+id:1517 name:Eustoma 
+id:1518 name:Forbesii 
+id:1519 name:Itsuki  Midoriba
+id:1520 name:Yousuke Otoha
+id:1521 name:Yurine  
+id:1522 name:Eko Hoshunin
+id:1523 name:Narumi  Kure
+id:1524 name:Hinaru  
+id:1525 name:Nue  
+id:1526 name:Alviss 
+id:1527 name:Nanashi 
+id:1528 name:Dorothy  
+id:1529 name:Lyserg  Diethel
+id:1530 name:Talho  Yuuki
+id:1531 name:Jun  Watarase
+id:1532 name:Mei Etou
+id:1533 name:Kotarou Katsura
+id:1534 name:Rika Furude
+id:1535 name:Hayato Gokudera
+id:1536 name:Ion  Fortuna
+id:1537 name:Manami Amamiya
+id:1538 name:Mika Inamori
+id:1539 name:Mutsuki Uehara
+id:1540 name:Momoha Odori
+id:1541 name:Enel 
+id:1542 name:Youko Nakajima
+id:1543 name:Keiki 
+id:1544 name:Shouryuu 
+id:1545 name:Enki 
+id:1546 name:Tenzen  Yakushiji
+id:1547 name:Ryouta  Satou
+id:1548 name:Chika  Koizumi
+id:1549 name:Tsubasa  Kawai
+id:1550 name:Koji  Imai
+id:1551 name:Natsumi  Hirakawa
+id:1552 name:Megumi  Hidaka
+id:1553 name:Yuki  Asano
+id:1554 name:Kazumi  Aihara
+id:1555 name:Hinata  Hyuuga
+id:1556 name:Takeshi Yamamoto
+id:1557 name:Itsuki Minami
+id:1558 name:Agito Wanijima
+id:1559 name:Kazuma Mikura
+id:1560 name:Onigiri 
+id:1561 name:Shiraume Noyamano
+id:1562 name:Ringo Noyamano
+id:1563 name:Issha Mihotoke
+id:1564 name:Simca 
+id:1565 name:Mari Tomita
+id:1566 name:Mikan Noyamano
+id:1567 name:Kuu Shiratori
+id:1568 name:Kyoushirou Ayanokouji
+id:1569 name:Setsuna 
+id:1570 name:Kaon  
+id:1571 name:Himiko  
+id:1572 name:Mika  Ayanokouji
+id:1573 name:Tarlotte  
+id:1574 name:Soujirou  Ayanokouji
+id:1575 name:Jin  Oogami
+id:1576 name:Kozue  Satou
+id:1577 name:Valteishia  
+id:1578 name:Kazuya  Ayanokouji
+id:1579 name:Youjirou  Akizuki
+id:1580 name:Kakunojou  Yuyama
+id:1581 name:Soutetsu  Ibaragi
+id:1582 name:Sakyounosuke  Kanna
+id:1583 name:Kozo  Shiranui
+id:1584 name:Kotoha  
+id:1585 name:Ebisu no  Zukin
+id:1586 name:Kakashi no  Keishin
+id:1587 name:Zagashira  
+id:1588 name:Benimaru  
+id:1589 name:Kobako  
+id:1590 name:Juubee  Nakaiya
+id:1591 name:Harry  Smith Parkes
+id:1592 name:Kaishuu  Katsu
+id:1593 name:Takamori  Saigou
+id:1594 name:Ryoma  Sakamoto
+id:1595 name:Rika Noyamano
+id:1596 name:Genba  Hario
+id:1597 name:Shouten  Koma no
+id:1598 name:Thomas Blake  Glover
+id:1599 name:Knives  Millions
+id:1600 name:Yomiko Readman
+id:1601 name:Nancy Makuhari
+id:1602 name:Joseph Carpenter
+id:1603 name:Drake  Anderson
+id:1604 name:Wendy  Earhart
+id:1605 name:Anita  King
+id:1606 name:Michelle  Cheung
+id:1607 name:Maggie  Mui
+id:1608 name:Nenene  Sumiregawa
+id:1609 name:Junior  
+id:1610 name:Harry MacDowel
+id:1611 name:Mion Sonozaki
+id:1612 name:Satoko  Houjou
+id:1613 name:Soushi  Minashiro
+id:1614 name:Kazuki  Makabe
+id:1615 name:Maya  Toomi
+id:1616 name:Fumihiko  Makabe
+id:1617 name:Kouyou  Kasugai
+id:1618 name:Shouko  Hazama
+id:1619 name:Meimi Haneoka
+id:1620 name:Mimori  Seira
+id:1621 name:Daiki Asuka
+id:1622 name:Rina  Takamiya
+id:1623 name:Manato  Sawatari
+id:1624 name:Ruby  
+id:1625 name:Kintarou Arisugawa
+id:1626 name:Yumi  Fukuzawa
+id:1627 name:Yuuki Fukuzawa
+id:1628 name:Rei  Hasekura
+id:1629 name:Kanako  Hosokawa
+id:1630 name:Shizuka Kanina
+id:1631 name:Suguru  Kashiwagi
+id:1632 name:Kei  Katou
+id:1634 name:Shiori  Kubo
+id:1635 name:Touko  Matsudaira
+id:1636 name:Youko Mizuno
+id:1637 name:Noriko  Nijou
+id:1638 name:Sachiko Ogasawara
+id:1639 name:Sei Satou
+id:1640 name:Yoshino  Shimazu
+id:1641 name:Magane  Takada
+id:1642 name:Tsutako  Takeshima
+id:1643 name:Eriko Torii
+id:1644 name:Shimako  Toudou
+id:1645 name:Akimitsu  Yakushiji
+id:1646 name:Ryou  Masaoka
+id:1647 name:Yumi  Ikoma
+id:1648 name:Potato  
+id:1649 name:Van  
+id:1650 name:Wendy  Garret
+id:1651 name:Carmen 99 
+id:1652 name:Joshua  Lundgren
+id:1653 name:Pricilla  
+id:1654 name:Yukiko  Steavens
+id:1655 name:The Claw  
+id:1656 name:Michael  Garret
+id:1657 name:Fasalina  
+id:1658 name:Gadved  
+id:1659 name:Carossa  
+id:1660 name:Mellisa 
+id:1661 name:William Will  Woo
+id:1662 name:Gaara 
+id:1663 name:Shuuzou Matsutani
+id:1664 name:Lala-Ru  
+id:1665 name:Hamdo  
+id:1666 name:Abelia  
+id:1667 name:Nabuca  
+id:1668 name:Boo  
+id:1669 name:Sara  Ringwalt
+id:1670 name:Tabool  
+id:1671 name:Sis  
+id:1672 name:Abel Nightroad
+id:1673 name:Reiji  Oozora
+id:1674 name:Maiko  Yukino
+id:1675 name:Daisuke  Hagiwara
+id:1676 name:Tachibana  Kyoji
+id:1677 name:Sayaka  Towa
+id:1678 name:Hikaru  Himuro
+id:1679 name:Aki  Mikage
+id:1680 name:Alexander Howell
+id:1681 name:Aya  Mikage
+id:1682 name:Ceres  
+id:1683 name:Chidori  Kuruma
+id:1684 name:Gladys  Smithson
+id:1685 name:Kagami  Mikage
+id:1686 name:Miori  Sahara
+id:1687 name:Kyuu Oda
+id:1688 name:Shiso  Mikagi
+id:1689 name:Shuro  Tsukasa
+id:1690 name:Suzumi  Aogiri
+id:1691 name:Tooya  
+id:1692 name:Wei  Fei Li
+id:1693 name:Yuuhi  Aogiri
+id:1694 name:Neji  Hyuuga
+id:1695 name:Priscilla Asagiri
+id:1696 name:Nene  Romanova
+id:1697 name:Linna  Yamazaki
+id:1698 name:Lionel  Taylor
+id:1699 name:André  Grandier
+id:1700 name:Oscar François  de Jarjeyes
+id:1701 name:Marie  Antoinette
+id:1702 name:Alain  de Soisson
+id:1703 name:Saint Juste  
+id:1704 name:Maximilien  Robespierre
+id:1705 name:Bernard  Chatelet
+id:1706 name:Martis 
+id:1707 name:Alyssa Searrs
+id:1708 name:Akira  Okuzaki
+id:1709 name:Eureka  
+id:1710 name:Schneizel el Britannia
+id:1711 name:Yurie  Hitotsubashi
+id:1712 name:Mr. Kim  
+id:1713 name:Lee  Linho
+id:1714 name:Hisami  Hishishii
+id:1715 name:Sonny Wong
+id:1716 name:John Woo
+id:1717 name:Karinka  
+id:1718 name:Saki  
+id:1719 name:Kurumi  
+id:1720 name:Cheza  
+id:1721 name:Lord Darcia the Third  
+id:1722 name:Cher  Degre
+id:1723 name:Harmona  
+id:1724 name:Jagara  
+id:1725 name:Hubb  Lebowski
+id:1726 name:Quent  Yaiden
+id:1727 name:Dita Liebely
+id:1728 name:Hibiki  Tokai
+id:1729 name:Jura Basil  Elden
+id:1730 name:Meia  Gisborn
+id:1731 name:Misty  Cornwell
+id:1732 name:Zed 
+id:1733 name:Barnette  Orangello
+id:1734 name:Bart  Garsus
+id:1735 name:Buzam A. Calessa
+id:1736 name:Duelo  McFile
+id:1737 name:Ezra  Vieil
+id:1738 name:Gascogne  Rheingau
+id:1739 name:Magno  Vivian
+id:1740 name:Paiway  Underberg
+id:1741 name:Parfet  Balblair
+id:1742 name:Conan Edogawa
+id:1743 name:Ai Haibara
+id:1744 name:Eri Kisaki
+id:1745 name:Heiji Hattori
+id:1746 name:Kogorou Mouri
+id:1747 name:Kaito Kuroba
+id:1748 name:Ran Mouri
+id:1749 name:Sonoko Suzuki
+id:1750 name:Yoshinoya  
+id:1751 name:Thor Klein
+id:1752 name:Rai  Klein
+id:1753 name:Tiz  
+id:1754 name:Third  
+id:1755 name:Zagi 
+id:1756 name:Karim 
+id:1757 name:Cheng 
+id:1758 name:Kengo  Mizumachi
+id:1759 name:Ayame Sarutobi
+id:1760 name:Fuuta de la Stella
+id:1761 name:Loki  
+id:1762 name:Mayura  Daidouji
+id:1763 name:Narugami 
+id:1764 name:Freya  
+id:1765 name:Ryuusuke Yamino
+id:1767 name:Freyr  
+id:1768 name:Randy Maclean
+id:1769 name:Dee  Laytner
+id:1770 name:Straight  Cougar
+id:1771 name:Flonne  
+id:1772 name:Eyes  Rutherford
+id:1773 name:Kanone  Hilbert
+id:1774 name:Ryoko  Takamachi
+id:1775 name:Rio  Takeuchi
+id:1776 name:Kousuke  Asazuki
+id:1777 name:Madoka  Narumi
+id:1778 name:Kahoko Hino
+id:1779 name:Lili  
+id:1780 name:Len  Tsukimori
+id:1781 name:Ryotaro  Tsuchiura
+id:1782 name:Kazuki  Hihara
+id:1783 name:Azuma  Yunoki
+id:1784 name:Keiichi  Shimizu
+id:1785 name:Shouko  Fuyuumi
+id:1786 name:Nami  Amou
+id:1787 name:Hiroto Kanazawa
+id:1788 name:Shinobu  Ousaki
+id:1789 name:Ai Enma
+id:1790 name:Ren Ichimoku
+id:1791 name:Hone Onna 
+id:1792 name:Wanyuudou  
+id:1793 name:Kikuri  
+id:1795 name:Motoko Kusanagi
+id:1796 name:The Laughing Man  
+id:1797 name:Tenka  Koganei
+id:1798 name:Tenchi  Koganei
+id:1799 name:Tenrei  Koganei
+id:1800 name:Tenten  Koganei
+id:1801 name:Tenga  Koganei
+id:1802 name:Inaho  Kameda
+id:1803 name:Alice  Uzuki
+id:1804 name:Katsuyuki  Saigo
+id:1805 name:Takuto Kira
+id:1806 name:Meroko  Yui
+id:1807 name:Sayoko  Shinozaki
+id:1808 name:V.V. 
+id:1810 name:Takaki  Toono
+id:1811 name:Akari  Shinohara
+id:1812 name:Kanae  Sumida
+id:1813 name:Izumi  Sawatari
+id:1814 name:Mitsuki  Sawatari
+id:1815 name:Anna  Kurauchi
+id:1816 name:Sephiroth 
+id:1817 name:Ryo Mashiba
+id:1818 name:Kumi  Mashiba
+id:1821 name:Takeshi Sendo
+id:1822 name:Izumi  Rio
+id:1823 name:Crawd C. Kenni
+id:1824 name:Rena  Lanford
+id:1825 name:Celine  Jules
+id:1826 name:Ashton  Anchors
+id:1827 name:Precis F  Neumann
+id:1828 name:Bowman  Jean
+id:1829 name:Leon  D.S. Geeste
+id:1830 name:Dias  Flac
+id:1831 name:Opera  Vectra
+id:1832 name:Ernest  Ravide
+id:1833 name:Nakago 
+id:1834 name:Chiaki Nagoya
+id:1835 name:Sara  
+id:1836 name:Sieghart 
+id:1837 name:Excel 
+id:1838 name:Hyatt 
+id:1839 name:Tatsuhiro  Satou
+id:1840 name:Yuzu  Hieda
+id:1841 name:Seiko  Rikiishi
+id:1842 name:Chika  Yurikasa
+id:1843 name:Izumi  Sakibara
+id:1844 name:Shizuka  Midoh
+id:1845 name:Kurako  Hieda
+id:1846 name:Tama  Hieda
+id:1847 name:Tadahiro  Amatsu
+id:1848 name:Masashi  Kusugi
+id:1849 name:Menchi 
+id:1850 name:Il Palazzo  
+id:1851 name:Keiichi Maebara
+id:1852 name:Satoshi Houjou
+id:1853 name:Mukuro Rokudou
+id:1854 name:Dino Cavallone
+id:1855 name:Haru  Miura
+id:1856 name:Dr. Shamal  
+id:1857 name:Kyouko  Sasagawa
+id:1858 name:Kyouya Hibari
+id:1859 name:Lambo 
+id:1860 name:Bianchi 
+id:1861 name:Ryouhei Sasagawa
+id:1862 name:I-Pin 
+id:1863 name:Rakshata  Chawla
+id:1864 name:Taizou  Kirihara
+id:1865 name:Kaguya  Sumeragi
+id:1866 name:Fumihiko  Matsumaru
+id:1867 name:Aka  Onda
+id:1868 name:  Yoshioka
+id:1869 name:  Tanaka
+id:1870 name:Yoshio  Hatakeda
+id:1872 name:Sister Miyako  
+id:1873 name:Girochi  
+id:1874 name:Corona  
+id:1875 name:Reiko  Oota
+id:1876 name:Nekoko  
+id:1877 name:Kazuki  Oogami
+id:1878 name:Yukihito  
+id:1879 name:Otoha  Kisaragi
+id:1880 name:Makoto  Saotome
+id:1881 name:Nana Sawada
+id:1882 name:Ken  Joshima
+id:1883 name:Chikusa Kakimoto
+id:1884 name:Lancia  
+id:1885 name:Inuki  
+id:1886 name:Kouichi  Kimura
+id:1887 name:Kouji  Minamoto
+id:1888 name:Takuya  Kanbara
+id:1889 name:Junpei Shibayama
+id:1890 name:Izumi Orimoto
+id:1891 name:Tomoki Himi
+id:1892 name:Pen Pen  
+id:1893 name:Kaien  Shiba
+id:1894 name:Chichiri 
+id:1896 name:Fate Testarossa
+id:1897 name:Keita  Kawahira
+id:1898 name:Kyousuke  Munakata
+id:1899 name:Bankotsu  
+id:1900 name:Sasori 
+id:1901 name:Sai  
+id:1902 name:Deidara  
+id:1903 name:Suigetsu  Hoozuki
+id:1904 name:Teru Mikami
+id:1905 name:Rem  
+id:1906 name:Touta Matsuda
+id:1907 name:Taichi Yagami
+id:1909 name:Yamato Ishida
+id:1910 name:Dominic  Sorel
+id:1911 name:Anemone  
+id:1912 name:Akito  Hayama
+id:1913 name:Masahiro  Abe no
+id:1914 name:Seimei  Abe no
+id:1915 name:Akiko  Fujiwara no
+id:1916 name:Kazane  
+id:1917 name:Rikugou 
+id:1918 name:Taiin  
+id:1919 name:Genbu  
+id:1920 name:Byakko  
+id:1921 name:Suzaku  
+id:1922 name:Yukinari  Fujiwara no
+id:1923 name:Seiryuu  
+id:1924 name:Toshitsugu  Fujiwara no
+id:1925 name:Kouchin  
+id:1926 name:Tenitsu 
+id:1927 name:Souichirou  Yagami
+id:1928 name:Kyousuke  Higuchi
+id:1929 name:Reiji  Namikawa
+id:1930 name:Arayoshi  Hatori
+id:1931 name:Masahiko  Kida
+id:1932 name:Tierry Morello
+id:1933 name:Mary Kenwood
+id:1934 name:Alastor 
+id:1935 name:Yuuji Sakai
+id:1936 name:Margery Daw
+id:1937 name:Marchosias 
+id:1938 name:Wilhelmina Carmel
+id:1939 name:Tiamat 
+id:1940 name:Khamsin Nbh'w
+id:1941 name:Behemoth 
+id:1942 name:Friagne 
+id:1943 name:Marianne  
+id:1944 name:Lamies 
+id:1945 name:Sorath 
+id:1946 name:Tiriel 
+id:1947 name:Hecate 
+id:1948 name:Sydonay 
+id:1949 name:Bel Peol 
+id:1950 name:Dantalion 
+id:1951 name:Tenmoku Ikko 
+id:1952 name:Kazumi  Yoshida
+id:1953 name:Eita  Tanaka
+id:1954 name:Keisaku  Satou
+id:1955 name:Matake  Ogata
+id:1956 name:Chigusa  Sakai
+id:1957 name:Hayato  Ike
+id:1958 name:Yukari  Hirai
+id:1960 name:Daisuke Motomiya
+id:1961 name:Takeru Takaishi
+id:1962 name:Ken Ichijouji
+id:1963 name:Hikari Yagami
+id:1964 name:Conrad Weller
+id:1965 name:Yuuri Shibuya
+id:1966 name:Wolfram  von Bielefeld
+id:1967 name:Gwendal  von Voltaire
+id:1968 name:Gunter von Christ
+id:1969 name:Ken  Murata
+id:1970 name:Josak  Gurrier
+id:1971 name:Aya  Toujou
+id:1972 name:Satsuki  Kitaouji
+id:1973 name:Junpei  Manaka
+id:1974 name:Tsukasa  Nishino
+id:1975 name:Yui  Minamito
+id:1976 name:Kaori  Sakuragi
+id:1977 name:Nagisa  Aoi
+id:1978 name:Miyuki  Rokujou
+id:1979 name:Chiyo  Tsukidate
+id:1980 name:Mizue  Hamasaka
+id:1981 name:Hikari  Konohana
+id:1983 name:Yaya  Nanto
+id:1984 name:Amane  Ootori
+id:1985 name:Tsubomi  Okuwaka
+id:1986 name:Shion  Toumori
+id:1987 name:Kaname  Kenjou
+id:1988 name:Momomi  Kiyashiki
+id:1989 name:Chikaru  Minamoto
+id:1990 name:Kizuna  Hyuuga
+id:1991 name:Remon  Natsume
+id:1992 name:Kagome  Byakudan
+id:1994 name:Rei Kon
+id:1995 name:Rakka  
+id:1996 name:Reki  
+id:1997 name:Kuu  
+id:1998 name:Nemu  
+id:1999 name:Kana  
+id:2000 name:Hyouko  
+id:2001 name:The Communicator  
+id:2002 name:Kuramori  
+id:2003 name:Sumika  
+id:2004 name:Midori  
+id:2005 name:Hikari  
+id:2006 name:Yamato 
+id:2007 name:Shikamaru Nara
+id:2008 name:Chouji  Akimichi
+id:2009 name:Ino  Yamanaka
+id:2010 name:Nanoha Takamachi
+id:2011 name:Iruka  Umino
+id:2012 name:Saki  Kasukabe
+id:2013 name:Makoto  Kousaka
+id:2014 name:Arf  
+id:2015 name:Roger Smith
+id:2016 name:Ryuuichi  Sakuma
+id:2017 name:Nuriko 
+id:2018 name:Henrietta  
+id:2019 name:Triela 
+id:2020 name:Rico  
+id:2021 name:Claes 
+id:2022 name:Angelica  
+id:2023 name:Elsa  DeSica
+id:2024 name:Jose Croce
+id:2025 name:Jean  Croce
+id:2026 name:Hilshire 
+id:2027 name:Raballo  
+id:2028 name:Marco  Tongi
+id:2029 name:Lauro  
+id:2030 name:Usagi Tsukino
+id:2031 name:Dark Schneider
+id:2032 name:Anissina  von Karbelnikoff
+id:2033 name:Rosette Christopher
+id:2034 name:Chrno 
+id:2035 name:Aion 
+id:2036 name:Azmaria Hendric
+id:2038 name:Satella Harvenheit
+id:2039 name:Haku  
+id:2040 name:Romeo Candorebanto  Montague
+id:2041 name:Juliet Fiammata Asto Capulet
+id:2042 name:Shader  
+id:2043 name:Joshua  Christopher
+id:2044 name:Ewan Remington
+id:2045 name:Edward Hamilton
+id:2046 name:Laertes  Montague
+id:2047 name:Benvolio  de Frescobaldi
+id:2048 name:Cordelia  
+id:2049 name:Hermione  de Borromeo
+id:2050 name:Emilia  
+id:2051 name:William 
+id:2052 name:Mercutio  
+id:2053 name:Francisco  
+id:2054 name:Curio  
+id:2055 name:Antonio  
+id:2056 name:Tybalt  
+id:2057 name:Portia  
+id:2058 name:Nono  
+id:2059 name:Toshihiko  Momota
+id:2060 name:Yuka  Kamitsuki
+id:2061 name:Kazuma  Momota
+id:2062 name:Rie  Kakinoki
+id:2063 name:Yoko Littner
+id:2064 name:Mihawk Dracule
+id:2065 name:Ryou Saeba
+id:2066 name:Kaori Makimura
+id:2067 name:Hideyuki  Makimura
+id:2068 name:Hayato Ijuuin
+id:2069 name:Saeko Nogami
+id:2071 name:Keiichirou  Akizuki
+id:2072 name:Ace Portgas D.
+id:2073 name:Roan  
+id:2074 name:Mokona Modoki
+id:2075 name:Kamina 
+id:2076 name:Koushaku Chouno
+id:2077 name:Musashi  Miyamoto
+id:2078 name:Nagi Sanzenin
+id:2079 name:Alex Louis Armstrong
+id:2080 name:Shin  Natsume
+id:2081 name:Ellis  
+id:2082 name:Nadie  
+id:2083 name:Alita Castilia Arago Forland
+id:2084 name:Haruka  Kaminogi
+id:2085 name:Yuu  Gotou
+id:2086 name:Karasu 
+id:2087 name:Archer  
+id:2088 name:Mamoru Sakimori
+id:2089 name:Layla Serizawa
+id:2090 name:Yorito  Morimiya
+id:2091 name:Matsuri  Shihou
+id:2092 name:Aono  Morimiya
+id:2093 name:Gohan Son
+id:2094 name:Gyumao 
+id:2095 name:Suno 
+id:2096 name:Upa 
+id:2097 name:Yajirobe  
+id:2098 name:Jinzouningen 8-gou 
+id:2099 name:Jinzouningen 16-gou 
+id:2100 name:Bee 
+id:2101 name:Bora  
+id:2102 name:Chi-Chi 
+id:2103 name:Dr. Briefs 
+id:2104 name:Gohan Son
+id:2105 name:Lunch 
+id:2106 name:Marron 
+id:2107 name:Bulma's Mother 
+id:2108 name:Oolong 
+id:2109 name:Tenkaichi Budokai Announcer 
+id:2110 name:Uranai Baba 
+id:2111 name:Videl 
+id:2112 name:Umigame 
+id:2113 name:Tama 
+id:2114 name:Akkuman 
+id:2115 name:Sanzoku Kuma 
+id:2116 name:Shen 
+id:2117 name:Sharpner 
+id:2118 name:Ran Fuan
+id:2119 name:Paresu 
+id:2120 name:Namu 
+id:2121 name:Mutaito 
+id:2122 name:Mira-kun 
+id:2123 name:Maron  
+id:2124 name:Chapa-O 
+id:2125 name:Dracula Man 
+id:2126 name:Bacterian  
+id:2127 name:Giran  
+id:2128 name:Erasa 
+id:2129 name:Yamu  
+id:2130 name:Tsuru-Sennin 
+id:2131 name:Tao Pai Pai 
+id:2132 name:Spopovitch  
+id:2133 name:Shuu 
+id:2134 name:Sergeant Metallic 
+id:2135 name:Sergeant Murasaki 
+id:2136 name:Buyon 
+id:2137 name:General White  
+id:2138 name:General Blue  
+id:2139 name:Staff Officer Black 
+id:2140 name:Commander Red  
+id:2141 name:Pilaf 
+id:2142 name:Jaga Batta 
+id:2143 name:Mai  
+id:2145 name:Cell Jr. 
+id:2146 name:Dr. Gero 
+id:2147 name:Jinzouningen 17-gou 
+id:2148 name:Jinzouningen 15-gou 
+id:2149 name:Jinzouningen 14-gou 
+id:2150 name:Jinzouningen 13-gou 
+id:2151 name:Chiaotzu 
+id:2152 name:Gokuu Jr.  Son
+id:2153 name:Vegeta Jr.  
+id:2154 name:Tsukiko  Sagi
+id:2155 name:Maromi  
+id:2156 name:Shounen Bat 
+id:2157 name:Hamel 
+id:2158 name:Sizer 
+id:2159 name:Kuririn 
+id:2160 name:Hei 
+id:2161 name:Hanataro  Yamada
+id:2162 name:Yuma  Tonami
+id:2163 name:Yin 
+id:2164 name:Huang  
+id:2165 name:Mao 
+id:2166 name:Misaki Kirihara
+id:2167 name:Basil 
+id:2168 name:Kurz  Weber
+id:2169 name:Konata Izumi
+id:2170 name:Tsukasa  Hiiragi
+id:2171 name:Kagami Hiiragi
+id:2172 name:Miyuki Takara
+id:2173 name:Karin Hanazono
+id:2174 name:Temari  
+id:2175 name:Futaba  Kutsuki
+id:2176 name:Yusuke  Takasaki
+id:2177 name:Midori  Chitose
+id:2178 name:Miaka Yuuki
+id:2179 name:Quillsh Wammy
+id:2180 name:Mimiru  
+id:2181 name:Bear 
+id:2182 name:BT 
+id:2183 name:Sora 
+id:2184 name:Silver Knight 
+id:2185 name:Crim  
+id:2186 name:Kullweet Envatilia
+id:2187 name:Elie 
+id:2188 name:Clare 
+id:2189 name:Conrad  
+id:2190 name:Ariel  
+id:2191 name:Lancelot  
+id:2192 name:Alessandro XVIII  
+id:2193 name:Francesco  di Medici
+id:2194 name:Caterina  Sforza
+id:2195 name:Esther  Blanchett
+id:2196 name:Noélle Bor
+id:2197 name:Hugue Watteau
+id:2198 name:Kate Scott
+id:2199 name:Tres Iqus
+id:2200 name:Vaclav Havel
+id:2216 name:Hisui  
+id:2217 name:Kohaku 
+id:2218 name:Michael  Roa Valdamjong
+id:2219 name:Lain  Iwakura
+id:2220 name:Harry  Ord
+id:2221 name:Sochie  Heim
+id:2222 name:Guin Sard  Rhineford
+id:2223 name:Kihel  Heim
+id:2224 name:Dianna  Soreil
+id:2225 name:Gauron 
+id:2226 name:Shugo Kunisaki
+id:2227 name:Rena Kunisaki
+id:2228 name:Mireille  
+id:2229 name:Ouka 
+id:2230 name:Hotaru  
+id:2231 name:Balmung 
+id:2232 name:Signum 
+id:2233 name:Lisa  Pacifist
+id:2234 name:Kaze Kuroki
+id:2235 name:Kumo Shiroi
+id:2236 name:Ai  Hayakawa
+id:2237 name:Chobi  
+id:2238 name:Cid 
+id:2239 name:Earl  Tyrant
+id:2240 name:Fabula  
+id:2241 name:Fungus  
+id:2242 name:Herba  
+id:2243 name:Knave  
+id:2244 name:Lou Lupus
+id:2245 name:Mireth 
+id:2246 name:Omega  
+id:2247 name:Oscha  
+id:2248 name:Pisto  Shaz XI
+id:2249 name:Yu  Hayakawa
+id:2250 name:Moogle 
+id:2251 name:Vita 
+id:2252 name:Juna Ariyoshi
+id:2253 name:R. Dorothy  Wayneright
+id:2254 name:Norman  Burg
+id:2255 name:Dan  Dastun
+id:2256 name:Angel  Rosewater
+id:2257 name:Simon 
+id:2258 name:Kirika Yuumura
+id:2259 name:Mireille Bouquet
+id:2260 name:Reiyon  
+id:2261 name:Mime  Benetnasch
+id:2262 name:Misao Makimachi
+id:2263 name:Hyakushiki  Kaito
+id:2264 name:Ryuuji  Danma
+id:2266 name:Aoi  Sakuraba
+id:2267 name:Rebecca Miyamoto
+id:2268 name:Shosei  Sakaguchi
+id:2269 name: Lohmeyer
+id:2270 name:Hinagiku Katsura
+id:2271 name:Momo  Adachi
+id:2272 name:Kairi Okayasu
+id:2273 name:Falis 
+id:2274 name:Dominikov  
+id:2275 name:Pete  Armstrong
+id:2276 name:Sora  Takenouchi
+id:2277 name:Koushirou Izumi
+id:2278 name:Mimi  Tachikawa
+id:2279 name:Ikuto  Touhouin
+id:2280 name:Suzu  
+id:2282 name:Sougo Okita
+id:2283 name:Cross Marian
+id:2284 name:Zero 
+id:2285 name:Seiya Pegasus
+id:2286 name:Giovanni  Bertuccio
+id:2287 name:Baptistin  
+id:2288 name:Ali  
+id:2289 name:Fernand  Morcerf
+id:2290 name:Mercédès  Morcerf
+id:2291 name:Victoria  Danglars
+id:2292 name:Jullian  Danglars
+id:2293 name:Eugénie  Danglars
+id:2294 name:Gerard  Villefort
+id:2295 name:Valentine  Villefort
+id:2296 name:Héloïse  Villefort
+id:2297 name:Maximilien  Morrel
+id:2298 name:Lucien  Debray
+id:2299 name:Robert  Beauchamp
+id:2300 name:Peppo  
+id:2301 name:Andrea Cavalcanti
+id:2302 name:Raoul  Château-Renaud
+id:2303 name:Azure Kite 
+id:2304 name:Lamia  Betterman
+id:2305 name:Koenma 
+id:2306 name:Yuzuki  
+id:2307 name:Takako  Shimizu
+id:2308 name:Gally 
+id:2309 name:Akira  Kogami
+id:2310 name:Dokuro  Mitsukai
+id:2311 name:Kite  
+id:2312 name:Blackrose  
+id:2313 name:Zefie  
+id:2315 name:Sanjuro  
