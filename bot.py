@@ -1,4 +1,5 @@
 import discord
+import os
 from discord.ext import commands
 import get_image
 from id_list import id_list
@@ -10,7 +11,7 @@ from get_attributes import Character
 bot = commands.Bot(command_prefix='.')
 # client = discord.Client()
 
-token = 'NzIzMjYwNjQwMTg1MDI0NTcy.XuvDHQ.TkoaSnE-cpWPSdF3k8_QVjQfkaY'
+token = os.environ['sylok_token']
 
 
 @bot.command()
