@@ -11,9 +11,10 @@ from get_attributes import Character
 bot = commands.Bot(command_prefix='.')
 # client = discord.Client()
 
-token = os.environ['sylok_token']
+token = os.environ.get('SYLOK_KEY')
 
 
+@commands.cooldown(1, 4, commands.BucketType.user)
 @bot.command()
 async def groll(ctx, arg=None):
     if arg is not None:
@@ -30,6 +31,8 @@ async def groll(ctx, arg=None):
     embed.add_field(name='Roll Type', value='Standard', inline=False)
     embed.set_footer(text=f"{str(ctx.author)[:str(ctx.author).find('#')]}'s Gacha Roll")
     await ctx.send(content=None, embed=embed)
+
+
 
 bot.run(token)
 # client.run(token)
