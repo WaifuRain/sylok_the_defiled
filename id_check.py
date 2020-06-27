@@ -45,6 +45,7 @@ while True:
     if soup.find('div', class_='caption') is None:
         pass
     else:
+        write_ids(valid_ids)
         exit(-1)
 
     for content_wrapper in soup.find_all('div', id='contentWrapper'):

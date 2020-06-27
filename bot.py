@@ -8,10 +8,9 @@ from random import choice
 from get_attributes import Character
 
 
-bot = commands.Bot(command_prefix='.')
-# client = discord.Client()
-
+bot = commands.Bot(command_prefix='.', case_insensitive=True, owner_id=465283213217103882)
 token = os.environ.get('SYLOK_KEY')
+bot.version = '0.1.2'  # major changes, minor changes, small changes
 
 
 def is_registered(author_id):
@@ -22,12 +21,27 @@ def is_registered(author_id):
             return False
 
 
+@bot.event  # error handler
+async def on_command_error(ctx, error):
+    ignored = (commands.CommandNotFound, commands.UserInputError)
+    if isinstance(error, ignored):
+        return
+    if isinstance(error, commands.CommandOnCooldown):
+        await ctx.send(f'You are on cooldown. Seconds remaining: {round(error.retry_after, 2)}s')
+    elif isinstance(error, commands.CheckFailure):
+        await ctx.send('You lack permission to use this command.')
+    raise error
+
+
 @commands.cooldown(1, 4, commands.BucketType.user)
 @bot.command()
-async def groll(ctx, arg=None):
+async def roll(ctx, arg=None):
     if arg is not None:
         await ctx.send('Invalid usage of .groll')
-        raise discord.DiscordException
+        return
+    if not is_registered(ctx.author.id):
+        await ctx.send(f'You are not registered! Register using {bot.command_prefix}register .')
+        return
     waifu = Character(choice(id_list()))
     embed = discord.Embed(title='Waifu Gacha', description=f'Roll Result:\n**{waifu.name}** [α]')
     try:
@@ -42,6 +56,7 @@ async def groll(ctx, arg=None):
 
 
 @bot.command()
+@commands.is_owner()
 async def test(ctx):
     print(ctx.author)  # Waifu Hearts#7777
     print(ctx.message)  # message object
@@ -57,5 +72,10 @@ async def register(ctx):
         with open('registered_users.txt', 'a') as f:
             f.write(f'{ctx.message.author.id}\n')
 
+
+@bot.command()
+@commands.is_owner()
+async def disconnect(ctx):
+    await bot.logout()
+
 bot.run(token)
-# client.run(token)
