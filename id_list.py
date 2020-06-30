@@ -7,7 +7,7 @@ def file_len(fname):
 
 def id_list():
     character_id_list = []
-    with open('valid_id_list.txt', 'r', encoding='utf-8') as f:
+    with open('valid_id_list_new.txt', 'r', encoding='utf-8') as f:
         for i in range(file_len('valid_id_list_new.txt')):
             line = f.readline()
             character_id = line[line.find(':')+1:line.find('name')].strip()
