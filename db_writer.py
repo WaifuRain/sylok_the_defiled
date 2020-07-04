@@ -1,9 +1,11 @@
 import os
+import requests
 from waifu_db import waifu_db as db
 
 root_directory = 'C:\\Users\\bridg\\Desktop\\Rain Drive\\stuff\\Waifu Database'
 os.chdir(root_directory)
 for character_id in db:
+    img_count = 0
     os.chdir(root_directory)
     os.mkdir(character_id)
     os.chdir(f'{root_directory}\\{character_id}')
@@ -11,9 +13,10 @@ for character_id in db:
         name.write(db[character_id]['name'])
     with open(f'description.txt', 'w', encoding='utf-8') as description:
         description.write(db[character_id]['description'])
-
-"""
-todo: write images to the waifu database
-
-"""
+    for image in db[character_id]['images']:
+        img_count += 1
+        image_data = requests.get(image).content
+        with open(f'{img_count}.jpg', 'wb') as img:
+            img.write(image_data)
+    print(f"{db[character_id]['name']} written to database.")
 
