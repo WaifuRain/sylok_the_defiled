@@ -1,0 +1,12 @@
+- Transfer database to drive on host pc in batches, probabaly 1000 at a time
+    - log the waifus with no descriptions or images to be looked at in the future
+
+- waifu statistics system
+ - ask James?
+
+- create a system that allows you to claim waifus
+    - .list
+    - use the unique discord id of the user to add that unique version of their waifu to the list
+    - create the option to let the waifu go
+    - each unique version of a waifu will have it's own UUID
+    - in order for this to work, a waifu statistic system must be implemented first
