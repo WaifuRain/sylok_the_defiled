@@ -1,11 +1,12 @@
 from get_attributes import Character
 import json
 import id_list as id_lst
-import waifu_db
+from waifu_db import waifu_db
 """
-account for error when no character description is found
+Check the name of id:620 in the waifu database
 
 """
+
 
 def count_lines(file):
     lines = 0

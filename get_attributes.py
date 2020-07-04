@@ -36,7 +36,10 @@ class Character:
         source = requests.get(f'https://myanimelist.net/character/{self.character_id}').text
         soup = BeautifulSoup(source, features='html.parser')
         description = soup.find('td', valign='top', style='padding-left: 5px;')
-        description = description.br.text[:description.br.text.find('Voice Actors')]
+        try:
+            description = description.br.text[:description.br.text.find('Voice Actors')]
+        except AttributeError:
+            return ''
         return description.strip()
 
 
