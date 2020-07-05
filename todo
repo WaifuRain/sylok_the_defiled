@@ -1,6 +1,14 @@
 - Transfer database to drive on host pc in batches, probably 1000 at a time
     - log the waifus with no descriptions or images to be looked at in the future
 
+- Collect more data with the Character class
+    - full descriptions aren't getting scraped from myanimelist.net
+    - voice actors
+    - full name with kanji
+    - Animeography
+    - Mangaography
+    - Favorites
+
 - waifu statistics system
  - ask James?
 

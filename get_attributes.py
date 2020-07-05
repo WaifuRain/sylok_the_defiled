@@ -23,6 +23,12 @@ class Character:
         name = soup.find('div', style='height: 15px;', class_='normal_header')
         return name.text[:name.text.find('(') - 1]
 
+    def get_name_alternate(self):
+        source = requests.get(f'https://myanimelist.net/character/{self.character_id}').text
+        soup = BeautifulSoup(source, features='html.parser')
+        name = soup.find('div', style='height: 15px;', class_='normal_header')
+        return name.text[:name.text.find('(')]
+
     def get_images(self):
         image_list = []
         source = requests.get(f'https://myanimelist.net/character/{self.character_id}/{self.name[:self.name.find(" ")]}_{self.name[self.name.find(" ") + 1:]}/pictures').text
@@ -30,7 +36,26 @@ class Character:
         for images in soup.find_all('img', alt=self.name, class_='lazyload'):
             image_source = str(images)
             image_list.append(image_source[image_source.find('https'):image_source.find('jpg') + 3])
-        return image_list
+            print(image_list)
+        if not image_list:
+            self.name = self.get_name_alternate()
+            self.get_images()
+            print('top')
+            return image_list
+        else:
+            print('bottom')
+            return image_list
+
+    # def get_images_alternate(self):
+    #     image_list = []
+    #     source = requests.get(
+    #         f'https://myanimelist.net/character/{self.character_id}/{self.name[:self.name.find(" ")]}_{self.name[self.name.find(" ") + 1:]}/pictures').text
+    #     soup = BeautifulSoup(source, features='html.parser')
+    #     for images in soup.find_all('img', alt=self.name, class_='lazyload'):
+    #         image_source = str(images)
+    #         image_list.append(image_source[image_source.find('https'):image_source.find('jpg') + 3])
+    #         print(image_list)
+    #     return image_list
 
     def get_description(self):
         source = requests.get(f'https://myanimelist.net/character/{self.character_id}').text
