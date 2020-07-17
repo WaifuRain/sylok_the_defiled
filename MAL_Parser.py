@@ -1,24 +1,3 @@
-"""
-non kanji title - <span class="h1-title">
-kanji - <div class="normal-header" style="height: 15px;">
-            <span style="font-weight: normal;">
-description - <td valign="top" style="padding-left: 5px;">
-voice actors - [all] <table border="0" cellpadding ="0" cellspacing="0" width="100%">
-                        <tbody>
-                            <tr>
-                                <td class="borderClass" valign="top">
-                                    <a>
-voice actor language -          <div style="margin-top: 2px;">
-                                    <small>
-animeography - <div id="content">
-                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                        <tbody>
-                            [all] <tr>
-                                    <td valign="top" class="borderClass">
-                                        <a>
-mangaography - same as animeography
-"""
-
 import requests
 from bs4 import BeautifulSoup
 
@@ -28,14 +7,17 @@ class Character:
         self.character_id = character_id
         self.source = requests.get(f'https://myanimelist.net/character/{str(character_id)}').text
         self.name = self.get_name()
+        self.first = self.name.split(' ')[0]
+        self.last = self.name.split(' ')[-1]
         self.kanji = self.get_kanji()
         self.description = self.get_description()
         self.voice_actors = self.get_voice_actors()
-        self.animeography = self.get_animeography()
-        self.mangaography = self.get_mangaography()
-        self.image_list = self.get_image_list()
+        self.animeography = self.get_animeography_and_mangaography('A')
+        self.mangaography = self.get_animeography_and_mangaography('M')
+        self.images = self.get_image_list()
         self.voice_actor_languages = self.get_voice_actor_languages()
         self.actors = self.compile_voice_actor_list()
+        self.initials = self.get_initials()
 
     def get_name(self):
         soup = BeautifulSoup(self.source, features='html.parser')
@@ -43,10 +25,13 @@ class Character:
         return name.text.replace('  ', ' ')
 
     def get_kanji(self):
-        soup = BeautifulSoup(self.source, features='html.parser')
-        kanji = soup.find('div', class_='normal_header', style='height: 15px;')
-        kanji = kanji.find_next('span', style='font-weight: normal;')
-        return kanji.text
+        try:
+            soup = BeautifulSoup(self.source, features='html.parser')
+            kanji = soup.find('div', class_='normal_header', style='height: 15px;')
+            kanji = kanji.find_next('span', style='font-weight: normal;')
+            return kanji.text
+        except AttributeError:
+            return ''
 
     def get_description(self):
         soup = BeautifulSoup(self.source, features='html.parser')
@@ -55,47 +40,112 @@ class Character:
         return description.strip()
 
     def get_voice_actors(self):
-        soup = BeautifulSoup(self.source, features='html.parser')
-        voice_actors = soup.find('td', valign='top', style='padding-left: 5px;')
-        voice_actors = voice_actors.find_next('table', border='0', cellpadding='0', cellspacing='0', width='100%')
-        voice_actors = voice_actors.find_all_next('a', text=True)
-        temp_list = []
-        actor_list = []
-        for actor in voice_actors:
-            actor = str(actor)
-            actor = actor[actor.find('">')+2:actor.find('</a>')]
-            temp_list.append(actor)
-        for item in temp_list:
-            if item == 'See More':
-                break
-            else:
-                actor_list.append(item)
-        return actor_list
+        try:
+            soup = BeautifulSoup(self.source, features='html.parser')
+            voice_actors = soup.find('td', valign='top', style='padding-left: 5px;')
+            voice_actors = voice_actors.find_next('table', border='0', cellpadding='0', cellspacing='0', width='100%')
+            voice_actors = voice_actors.find_all_next('a', text=True)
+            temp_list = []
+            actor_list = []
+            for actor in voice_actors:
+                actor = str(actor)
+                actor = actor[actor.find('">')+2:actor.find('</a>')]
+                temp_list.append(actor)
+            for item in temp_list:
+                if item == 'See More' or item == 'More':
+                    break
+                else:
+                    actor_list.append(item)
+            return actor_list
+        except AttributeError:
+            return None
 
     def get_voice_actor_languages(self):
-        soup = BeautifulSoup(self.source, features='html.parser')
-        languages = soup.find('td', valign='top', style='padding-left: 5px;')
-        languages = languages.find_next('table', border='0', cellpadding='0', cellspacing='0', width='100%')
-        languages = languages.find_all_next('small', text=True)
-        language_list = []
-        for language in languages:
-            language = str(language)
-            language = language[language.find('>') + 1:language.find('</small>')]
-            language_list.append(language)
-        return language_list
+        try:
+            soup = BeautifulSoup(self.source, features='html.parser')
+            languages = soup.find('td', valign='top', style='padding-left: 5px;')
+            languages = languages.find_next('table', border='0', cellpadding='0', cellspacing='0', width='100%')
+            languages = languages.find_all_next('small', text=True)
+            language_list = []
+            for language in languages:
+                language = str(language)
+                language = language[language.find('>') + 1:language.find('</small>')]
+                language_list.append(language)
+            return language_list
+        except AttributeError:
+            return None
 
-    def compile_voice_actor_list(self):
+    def compile_voice_actor_list(self):  # TODO try to optimize this function with builtin zip()
+        if self.voice_actors is None and self.voice_actor_languages is None:
+            return []
         complete_list = []
         for i in range(len(self.voice_actors)):
-            x, y = self.voice_actors[i], self.voice_actor_languages[i]
-            complete_list.append((x, y))
+            try:
+                x, y = self.voice_actors[i], self.voice_actor_languages[i]
+                complete_list.append((x, y))
+            except IndexError:
+                complete_list = []
         return complete_list
 
     def get_animeography(self):
-        pass  # TODO
+        animeography = []
+        soup = BeautifulSoup(self.source, features='html.parser')
+        soup = soup.find('div', id='myanimelist').find('div', class_='wrapper').find('div', id='contentWrapper').find('div', id='content')
+        soup = soup.find('table', border='0', cellpadding='0', cellspacing='0', width='100%')
+        soup = soup.find('td', width='225', class_='borderClass', style='border-width: 0 1px 0 0;', valign='top')
+        soup = soup.find('table', border='0', cellpadding='0', cellspacing='0', width='100%')
+        soup = soup.find_all('a', href=True, class_=False, title=False, text=True)
+        for anime in soup:
+            anime = str(anime)
+            animeography.append(anime[anime.find('">') + 2:anime.find('</a>')])
+        return animeography
 
-    def get_mangaography(self):
-        pass  # TODO
+    def get_animeography_and_mangaography(self, type_of_content):
+        animeography = []
+        mangaography = []
+        soup = BeautifulSoup(self.source, features='html.parser')
+        soup = soup.find('div', id='myanimelist').find('div', class_='wrapper').find('div', id='contentWrapper').find('div', id='content')
+        soup = soup.find('table', border='0', cellpadding='0', cellspacing='0', width='100%')
+        soup = soup.find('td', width='225', class_='borderClass', style='border-width: 0 1px 0 0;', valign='top')
+        soup = soup.find_all('table', border='0', cellpadding='0', cellspacing='0', width='100%')
+        t = []
+        for tag in soup:
+            t.append(tag.find_all('a', href=True, class_=False, title=False, text=True))
+        if type_of_content == 'A':
+            for animes in t[0]:
+                animes = str(animes)
+                animeography.append(animes[animes.find('">') + 2:animes.find('</a>')])
+            return animeography
+        elif type_of_content == 'M':
+            for mangas in t[1]:
+                mangas = str(mangas)
+                mangaography.append(mangas[mangas.find('">') + 2:mangas.find('</a>')])
+            return mangaography
 
     def get_image_list(self):
-        pass  # TODO
+        image_list = []
+        soup = BeautifulSoup(requests.get(f'https://myanimelist.net/character/{self.character_id}/{self.first}_{self.last}/pictures').text, features='html.parser')
+        soup = soup.find_all('a', href=True, title=True, class_='js-picture-gallery', rel='gallery-character')
+        for link in soup:
+            link = str(link)
+            link = link[link.find('https://'):link.find('.jpg') + 4]
+            image_list.append(link)
+        image_list = set(image_list)
+        return list(image_list)
+
+    def get_initials(self):
+        try:
+            if '"' in self.name:
+                return [name[0] for name in (self.name[:self.name.find('"')] + self.name[self.name.find('" ') + 1:]).replace('  ', ' ').split(' ')]
+            else:
+                return [name[0] for name in self.name.split(' ')]
+        except IndexError:
+            return self.name[0]
+
+
+class Anime:
+    pass
+
+
+class Manga:
+    pass
