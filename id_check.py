@@ -13,10 +13,10 @@ count_requests = 0
 total_valid_ids = 0
 
 
-def write_ids(id_list):  # append valid ids to file every 100 requests
+def write_ids(character_id_list):  # append valid ids to file every 100 requests
     print('Writing valid ids...')
     with open('valid_id_list_new.txt', 'a', encoding='utf-8') as f:
-        for data in id_list:
+        for data in character_id_list:
             character_id = data
             f.write(f'id:{character_id}\n')
 
