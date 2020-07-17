@@ -16,7 +16,7 @@ class Character:
         self.mangaography = self.get_animeography_and_mangaography('M')
         self.images = self.get_image_list()
         self.voice_actor_languages = self.get_voice_actor_languages()
-        self.actors = self.compile_voice_actor_list()
+        self.actors = list(zip(self.voice_actors, self.voice_actor_languages))
         self.initials = self.get_initials()
 
     def get_name(self):
@@ -74,18 +74,6 @@ class Character:
             return language_list
         except AttributeError:
             return None
-
-    def compile_voice_actor_list(self):  # TODO try to optimize this function with builtin zip()
-        if self.voice_actors is None and self.voice_actor_languages is None:
-            return []
-        complete_list = []
-        for i in range(len(self.voice_actors)):
-            try:
-                x, y = self.voice_actors[i], self.voice_actor_languages[i]
-                complete_list.append((x, y))
-            except IndexError:
-                complete_list = []
-        return complete_list
 
     def get_animeography(self):
         animeography = []
