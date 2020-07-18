@@ -1,6 +1,6 @@
 import os
 import requests
-from waifu_db import waifu_db as db
+from Database_Code.Databases.waifu_db import waifu_db as db
 
 root_directory = 'C:\\Users\\bridg\\Desktop\\Rain Drive\\stuff\\Waifu Database'
 os.chdir(root_directory)

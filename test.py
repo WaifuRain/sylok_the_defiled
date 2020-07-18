@@ -5,7 +5,6 @@
 # print(test_waifu.description)
 
 from MAL_Parser import Character
-from waifu_db import waifu_db
 
 test_waifu = Character(11)
 print(test_waifu.name.strip())

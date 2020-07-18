@@ -1,6 +1,7 @@
 from MAL_Parser import Character
 import json
-import id_list as id_lst
+from IDs.id_list import id_list as id_list
+# import id_list as id_lst
 
 
 def count_lines(file):
@@ -12,18 +13,18 @@ def count_lines(file):
     return lines
 
 
-with open('waifu_db.py', 'r') as check:
+with open('../Databases/waifu_db.py', 'r') as check:
     if check.read() == '':
-        with open('waifu_db.py', 'w') as waifu_db:
+        with open('../Databases/waifu_db.py', 'w') as waifu_db:
             waifu_db.write('waifu_db = {}\n')
 
-with open('valid_id_list_new.txt', 'r') as id_list:
+with open('../ID', 'r') as id_list:
     character_id_list = []
-    for i in range(count_lines('valid_id_list_new.txt')):
+    for i in range(count_lines('../ID')):
         id_string = id_list.readline().strip()
         character_id_list.append(id_string[id_string.find(":")+1:])
 
-from waifu_db import waifu_db
+from Database_Code.Databases.waifu_db import waifu_db
 new_dictionary = waifu_db
 for waifu_id in character_id_list:
     if waifu_id in waifu_db.keys():
@@ -38,6 +39,6 @@ for waifu_id in character_id_list:
                 'actors': w.actors}
             })
 
-        with open('waifu_db.py', 'w') as db:
+        with open('../Databases/waifu_db.py', 'w') as db:
             db.write(f'waifu_db = {json.dumps(new_dictionary, indent=4)}')
             print(f"Waifu '{w.name}' written to database.")

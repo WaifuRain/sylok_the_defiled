@@ -1,11 +1,13 @@
 import discord
 import os
 from discord.ext import commands
-import get_image
-from id_list import id_list
-from get_image import get_image
+from IDs.id_list import id_list
+# from id_list import id_list
+from Deprecated_Files.get_image import get_image
+# from get_image import get_image
 from random import choice
-from get_attributes import Character
+from MAL_Parser import Character
+# from get_attributes import Character
 
 
 bot = commands.Bot(command_prefix='.', case_insensitive=True, owner_id=465283213217103882)
@@ -14,7 +16,7 @@ bot.version = '0.1.2'  # major changes, minor changes, small changes
 
 
 def is_registered(author_id):
-    with open('registered_users.txt', 'r') as f:
+    with open('ID', 'r') as f:
         if str(author_id) in f.read():
             return True
         else:
@@ -69,7 +71,7 @@ async def register(ctx):
     if is_registered(ctx.message.author.id):
         await ctx.send('You are already registered!')
     else:
-        with open('registered_users.txt', 'a') as f:
+        with open('ID', 'a') as f:
             f.write(f'{ctx.message.author.id}\n')
 
 

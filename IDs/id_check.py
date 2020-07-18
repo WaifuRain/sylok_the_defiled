@@ -1,7 +1,9 @@
 from bs4 import BeautifulSoup
 import requests
 from time import sleep
-import id_list
+from IDs.id_list import id_list
+# import id_list
+from exceptions import HeavyAccessRestrictionError
 
 current_id = int(id_list.id_list()[-1])
 # current_id = 0
@@ -44,7 +46,7 @@ while True:
         pass
     else:
         write_ids(valid_ids)
-        exit(-1)
+        raise HeavyAccessRestrictionError
 
     for content_wrapper in soup.find_all('div', id='contentWrapper'):
         h1 = content_wrapper.div.h1.text

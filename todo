@@ -2,7 +2,8 @@
     [X] log the waifus with no descriptions or images to be looked at in the future
 
 - raise custom exceptions for MAL errors
-
+    [X] HeavyAccessRestrictionError
+    [X] ...
 - Collect more data with the Character class
     [✓] full descriptions aren't getting scraped from myanimelist.net
     [✓] voice actors
@@ -21,7 +22,7 @@
     [X] make sure claimed waifus are not too powerful
 
 - create a system that sends random waifus/husbandos to discord channels
-    [] replicate original waifubot embed
+    [X] replicate original waifubot embed
     [] make sure the system doesn't spam channels
     [] probably use a weighted percentage algorithm to decide when to send out a waifu/husbando
 
