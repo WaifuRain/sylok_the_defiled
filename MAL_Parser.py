@@ -16,8 +16,16 @@ class Character:
         self.mangaography = self.get_animeography_and_mangaography('M')
         self.images = self.get_image_list()
         self.voice_actor_languages = self.get_voice_actor_languages()
-        self.actors = list(zip(self.voice_actors, self.voice_actor_languages))
+        try:
+            self.actors = list(zip(self.voice_actors, self.voice_actor_languages))
+        except TypeError:
+            self.actors = []
         self.initials = self.get_initials()
+        self.nicknames = self.get_nicknames()
+        if '"' in self.name:
+            self.database_name = self.name[:self.name.find('"')] + self.name[self.name.find('" ') + 1:].strip()
+        else:
+            self.database_name = self.name.strip()
 
     def get_name(self):
         soup = BeautifulSoup(self.source, features='html.parser')
@@ -129,6 +137,15 @@ class Character:
                 return [name[0] for name in self.name.split(' ')]
         except IndexError:
             return self.name[0]
+
+    def get_nicknames(self):
+        nickname_list = []
+        if '"' in self.name:
+            for nicknames in self.name[self.name.find('"') + 1:self.name.find('" ')].split(','):
+                nickname_list.append(nicknames.strip())
+            return nickname_list
+        else:
+            return []
 
 
 class Anime:
