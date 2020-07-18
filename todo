@@ -1,6 +1,8 @@
 [in progress] Transfer database to drive on host pc in batches, probably 1000 at a time
     [X] log the waifus with no descriptions or images to be looked at in the future
 
+- raise custom exceptions for MAL errors
+
 - Collect more data with the Character class
     [✓] full descriptions aren't getting scraped from myanimelist.net
     [✓] voice actors
@@ -10,7 +12,7 @@
     [X] Favorites
 
 - organize your project
-    [✓] sort your project into folders, before it gets too big
+    [X] sort your project into folders, before it gets too big
 
 - waifu statistics system
     [✓] ask James?
