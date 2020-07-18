@@ -35,8 +35,6 @@ while True:
         number_of_requests = 0
 
     source = requests.get(f'https://myanimelist.net/character/{current_id}').text
-
-    #print(source)
     number_of_requests += 1
     total_requests += 1
     count_requests += 1
@@ -52,14 +50,7 @@ while True:
         h1 = content_wrapper.div.h1.text
         if h1 != 'Invalid':
             total_valid_ids += 1
-            # name = h1[h1.find('\n')+1:h1.find('Edit')]
-            # if name.find('"') != -1:
-            #     name = name[:name.find(' "')] + name[name.find('" ') + 1:]
-            # else:
-            #     pass
-            # valid_ids.append((current_id, name))
             valid_ids.append(current_id)
-            # print(f'id: {current_id}\nstate: Valid\noutput: {h1}')
         else:
             print(f'id: {current_id}\nstate: Invalid\noutput: {h1}')
             invalid_ids += 1
