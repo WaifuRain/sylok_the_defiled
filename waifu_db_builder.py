@@ -32,7 +32,7 @@ for waifu_id in character_id_list:
         w = Character(waifu_id)
         new_dictionary.update({w.character_id: {
             'info': {
-                'name': w.name, 'kanji': w.kanji, 'initials': w.initials, 'description': w.description},
+                'name': w.database_name.strip(), 'kanji': w.kanji, 'nicknames': w.nicknames, 'initials': w.initials, 'description': w.description},
                 'images': w.images,
                 'appearances': {'animeography': w.animeography, 'mangaography': w.mangaography},
                 'actors': w.actors}
