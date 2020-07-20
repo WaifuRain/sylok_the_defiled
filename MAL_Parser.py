@@ -1,4 +1,5 @@
 import requests
+import exceptions
 from bs4 import BeautifulSoup
 
 
@@ -6,7 +7,10 @@ class Character:
     def __init__(self, character_id):
         self.character_id = character_id
         self.source = requests.get(f'https://myanimelist.net/character/{str(character_id)}').text
-        self.name = self.get_name()
+        try:
+            self.name = self.get_name()
+        except AttributeError:
+            raise exceptions.MALScrapingError
         self.first = self.name.split(' ')[0]
         self.last = self.name.split(' ')[-1]
         self.kanji = self.get_kanji()
