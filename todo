@@ -1,9 +1,12 @@
 [in progress] Transfer database to drive on host pc in batches, probably 1000 at a time
     [X] log the waifus with no descriptions or images to be looked at in the future
 
+[X] implement __call__ in rarity generation
+
 - raise custom exceptions for MAL errors
-    [X] HeavyAccessRestrictionError
+    [✓] HeavyAccessRestrictionError
     [X] ...
+
 - Collect more data with the Character class
     [✓] full descriptions aren't getting scraped from myanimelist.net
     [✓] voice actors
@@ -13,33 +16,35 @@
     [X] Favorites
 
 - organize your project
-    [X] sort your project into folders, before it gets too big
+    [✓] sort your project into folders, before it gets too big
 
 - waifu statistics system
     [✓] ask James?
     [X] Generate statistics based on waifu/husbando rarity
-    [X] Use a weighted percentage algorithm to determine waifu rarity
+    [✓] Use a weighted percentage algorithm to determine waifu rarity
     [X] make sure claimed waifus are not too powerful
 
 - create a system that sends random waifus/husbandos to discord channels
     [X] replicate original waifubot embed
-    [] make sure the system doesn't spam channels
-    [] probably use a weighted percentage algorithm to decide when to send out a waifu/husbando
+    [X] make sure the system doesn't spam channels
+    [X] probably use a weighted percentage algorithm to decide when to send out a waifu/husbando
 
 - create a system that allows you to claim waifus
-    [] in order for this to work, a waifu statistic system must be implemented first
-    [] replicate original waifubot embed
-    [] implement the .list command
-    [] use the unique discord id of the user to add that unique version of their waifu (uuid) to the list
-    [] create the option to let the waifu go
-    [] each unique version of a waifu will have it's own UUID
+    [X] in order for this to work, a waifu statistic system must be implemented first
+    [X] replicate original waifubot embed
+    [X] implement the .list command
+    [X] use the unique discord id of the user to add that unique version of their waifu (uuid) to the list
+    [X] create the option to let the waifu go
+    [X] each unique version of a waifu will have it's own UUID
 
 - .list
     [X] replicate original waifubot embed
     [X] implement .info command
 
 - create a unique waifu database consisting of claimed waifus
-    []
+    [X]
 
 [X] manually add some custom waifus
 [X] implement Anime and Manga classes into MAL_Parser
+
+[X] Rarity list parameter on waifu stats will change based on waifu dust enhancement
