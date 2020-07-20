@@ -19,7 +19,7 @@ class WeightedChoice(object):
 
 
 def waifu_stats(rarity_list):
-
+    pass
 
 
 rarity_list = (('alpha', 70),
