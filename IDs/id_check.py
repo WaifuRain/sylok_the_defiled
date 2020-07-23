@@ -5,7 +5,7 @@ from IDs.id_list import id_list
 # import id_list
 from exceptions import HeavyAccessRestrictionError
 
-current_id = int(id_list.id_list()[-1])
+current_id = int(id_list()[-1])
 # current_id = 0
 valid_ids = []
 invalid_ids = 0
@@ -17,7 +17,7 @@ total_valid_ids = 0
 
 def write_ids(character_id_list):  # append valid ids to file every 100 requests
     print('Writing valid ids...')
-    with open('valid_id_list_new.txt', 'a', encoding='utf-8') as f:
+    with open('C:\\Users\\bridg\\PycharmProjects\\sylok_the_defiled\\IDs\\valid_id_list_new.txt', 'a', encoding='utf-8') as f:
         for data in character_id_list:
             character_id = data
             f.write(f'id:{character_id}\n')
@@ -32,8 +32,8 @@ while True:
         valid_ids = []
         total_requests = 0
 
-    if number_of_requests == 25:
-        sleep(1)
+    if number_of_requests == 10:
+        sleep(2.5)
         number_of_requests = 0
 
     source = requests.get(f'https://myanimelist.net/character/{current_id}').text
