@@ -8,19 +8,30 @@ from Deprecated_Files.get_image import get_image
 from random import choice
 from MAL_Parser import Character
 # from get_attributes import Character
+import random
+from stats import WeightedChoice
 
 
 bot = commands.Bot(command_prefix='.', case_insensitive=True, owner_id=465283213217103882)
 token = os.environ.get('SYLOK_KEY')
 bot.version = '0.1.2'  # major changes, minor changes, small changes
+waifu_database_root = 'E:\\Waifu Database'
 
 
 def is_registered(author_id):
-    with open('ID', 'r') as f:
+    with open('C:\\Users\\bridg\\PycharmProjects\\sylok_the_defiled\\IDs\\registered_users.txt', 'r') as f:
         if str(author_id) in f.read():
             return True
         else:
             return False
+
+
+def create_waifu_id_list():
+    return next(os.walk(waifu_database_root))[1]
+
+
+def get_random_waifu_id():
+    return random.choice(create_waifu_id_list())
 
 
 @bot.event  # error handler
@@ -33,6 +44,17 @@ async def on_command_error(ctx, error):
     elif isinstance(error, commands.CheckFailure):
         await ctx.send('You lack permission to use this command.')
     raise error
+
+
+@bot.event
+async def on_message(msg):
+    weighted_choice = WeightedChoice(((False, 88), (True, 2)))
+    if msg.author == bot.user:
+        return
+    if weighted_choice.next():
+        await msg.channel.send('This would have been a waifu if it was implemented lmao')
+    else:
+        await msg.channel.send('Unlucky. No waifu this time.')
 
 
 @commands.cooldown(1, 4, commands.BucketType.user)
