@@ -56,9 +56,10 @@ class Character:
         source = requests.get(f'https://myanimelist.net/character/{self.character_id}').text
         soup = BeautifulSoup(source, features='html.parser')
         # description = soup.find('td', valign='top', style='padding-left: 5px;')
-        description = soup.find_all(string=[self.first, self.last, self.name])
+        description = soup.find('td', valign='top', style='padding-left: 5px;').text
+        description = description[description.find(')')+1:description.find('Voice Actors')].strip()
         """
-        Still trying to find a way to pull the full description efficiently from waifus, especially id:533
+        description scraper is still buggy. find edge cases, fix bugs, etc.
         """
         # try:
         #     description = description.br.text[:description.br.text.find('Voice Actors')]
