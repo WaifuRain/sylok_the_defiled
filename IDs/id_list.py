@@ -7,9 +7,9 @@ def file_len(fname):
 
 def id_list():
     character_id_list = []
-    with open('C:\\Users\\bridg\\PycharmProjects\\sylok_the_defiled\\bot\\IDs\\valid_id_list_new.txt', 'r', encoding='utf-8') as f:
-        for i in range(file_len('C:\\Users\\bridg\\PycharmProjects\\sylok_the_defiled\\bot\\IDs\\valid_id_list_new.txt')):
+    with open('C:\\Users\\bridg\\PycharmProjects\\sylok_the_defiled\\IDs\\valid_id_list_new.txt', 'r', encoding='utf-8') as f:
+        for i in range(file_len('C:\\Users\\bridg\\PycharmProjects\\sylok_the_defiled\\IDs\\valid_id_list_new.txt')):
             line = f.readline()
             character_id = line[line.find(':')+1:line.find('name')].strip()
-            character_id_list.append(character_id)
+            character_id_list.append(int(character_id))
     return character_id_list
