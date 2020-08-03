@@ -34,6 +34,25 @@ def get_random_waifu_id():
     return random.choice(create_waifu_id_list())
 
 
+def get_waifu_image_url(waifu_id):
+    link_directory = f"E:\\Waifu Database\\{waifu_id}\\images\\links"
+    with open(f'{link_directory}\\{random.choice(os.listdir(link_directory))}', 'r') as link_txt:
+        return link_txt.read()
+
+
+def get_waifu_initials(waifu_id):
+    with open(f'E:\\Waifu Database\\{waifu_id}\\info\\initials.txt') as initials:
+        return initials.read()
+
+
+def create_drop_embed(waifu_id, img_url):
+    # random_image = random.choice(os.listdir(f"E:\\Waifu Database\\{waifu_id}\\images\\links"))
+    embed = discord.Embed(title='**Character**', description=f'A waifu/husbando has appeared!\nTry guessing their name with `.claim <name>` to claim them!\n\nHints:\nThis characters initials are \'{get_waifu_initials(waifu_id)}\'\n'
+                                                             f'Use `.lookup <name>` if you can\'t remember the full name.\n\n(If the image is missing, click [here]({img_url}).)')
+    embed.set_image(url=img_url)
+    return embed
+
+
 @bot.event  # error handler
 async def on_command_error(ctx, error):
     ignored = (commands.CommandNotFound, commands.UserInputError)
@@ -48,11 +67,13 @@ async def on_command_error(ctx, error):
 
 @bot.event
 async def on_message(msg):
-    weighted_choice = WeightedChoice(((False, 88), (True, 2)))
+    weighted_choice = WeightedChoice(((False, 97), (True, 3)))
+    # weighted_choice = WeightedChoice(((False, 20), (True, 80)))
+    random_waifu_id = get_random_waifu_id()
     if msg.author == bot.user:
         return
     if weighted_choice.next():
-        await msg.channel.send('This would have been a waifu if it was implemented lmao')
+        await msg.channel.send(content=None, embed=create_drop_embed(random_waifu_id, get_waifu_image_url(random_waifu_id)))
     else:
         await msg.channel.send('Unlucky. No waifu this time.')
 
