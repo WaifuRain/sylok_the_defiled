@@ -1,12 +1,13 @@
 import os
 import requests
 from Database_Code.Databases.waifu_db import waifu_db as db
+from tqdm import tqdm
 
 
 root_directory = 'E:\\Waifu Database'
 os.chdir(root_directory)
 
-for character_id in db:
+for character_id in tqdm(db):
     try:
         img_count = 0
         nick_count = 0
@@ -32,8 +33,12 @@ for character_id in db:
             for inital in db[character_id]['info']['initials']:
                 initial_string += f'{inital}. '
             initials.write(initial_string.strip())
-        with open(f'description.txt', 'w', encoding='utf-8') as description:
-            description.write(db[character_id]['info']['description'])
+        try:
+            with open(f'description.txt', 'w', encoding='utf-8') as description:
+                description.write(db[character_id]['info']['description'])
+        except UnicodeEncodeError:
+            with open(f'description.txt', 'w', encoding='utf-16') as description:
+                description.write(db[character_id]['info']['description'])
         os.chdir(f'{root_directory}\\{character_id}')
         os.mkdir('images')
         os.chdir(f'{root_directory}\\{character_id}\\images')
