@@ -5,7 +5,7 @@ from IDs.id_list import id_list
 # import id_list
 from exceptions import HeavyAccessRestrictionError
 
-current_id = int(id_list()[-1])
+current_id = max(id_list())
 # current_id = 0
 valid_ids = []
 invalid_ids = 0
