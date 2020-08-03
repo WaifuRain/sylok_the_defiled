@@ -2,7 +2,9 @@ from MAL_Parser import Character
 import json
 from IDs.id_list import id_list as id_lst
 import time
+from tqdm import tqdm
 # import id_list as id_lst
+import exceptions
 
 
 def count_lines(file):
@@ -27,12 +29,20 @@ with open('C:\\Users\\bridg\\PycharmProjects\\sylok_the_defiled\\IDs\\valid_id_l
 
 from Database_Code.Databases.waifu_db import waifu_db
 new_dictionary = waifu_db
-for waifu_id in character_id_list:
+scraping_error_count = 0
+# print(character_id_list)
+# print(waifu_db.keys())
+for waifu_id in tqdm(character_id_list):
     if waifu_id in waifu_db.keys():
         pass
     else:
-        time.sleep(5)
-        w = Character(waifu_id)
+        time.sleep(2.5)
+        try:
+            w = Character(waifu_id)
+        except exceptions.MALScrapingError:
+            scraping_error_count += 1
+            print(f"Sleeping for 10 minutes. Error count: {scraping_error_count}")
+            time.sleep(600)
         new_dictionary.update({w.character_id: {
             'info': {
                 'name': w.database_name.strip(), 'kanji': w.kanji, 'nicknames': w.nicknames, 'initials': w.initials, 'description': w.description},
@@ -43,4 +53,4 @@ for waifu_id in character_id_list:
 
         with open('C:\\Users\\bridg\\PycharmProjects\\sylok_the_defiled\\Database_Code\\Databases\\waifu_db.py', 'w') as db:
             db.write(f'waifu_db = {json.dumps(new_dictionary, indent=4)}')
-            print(f"Waifu '{w.name}' written to database.")
+            # print(f"Waifu '{w.name}', id:{w.character_id} written to database.")
