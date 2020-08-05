@@ -4,12 +4,37 @@
 # print(test_waifu.first)
 # print(test_waifu.description)
 
-# from MAL_Parser import Character
-#
+# from MAL_Parser import Character, OldCharacter
+# import time
+
+# start = time.time()
 # test_waifu = Character(11)
-# print(test_waifu.name.strip())
-# print(test_waifu.nicknames)
+# print(test_waifu.name)
 # print(test_waifu.database_name)
+# print(test_waifu.nicknames)
+# print(test_waifu.kanji)
+# print(test_waifu.images)
+# print(test_waifu.description)
+# print(test_waifu.actors)
+# print(test_waifu.animeography)
+# print(test_waifu.animeography)
+# stop = time.time()
+# print(stop - start)
+#
+# start = time.time()
+# test_waifu = OldCharacter(11)
+# print(test_waifu.name)
+# print(test_waifu.database_name)
+# print(test_waifu.nicknames)
+# print(test_waifu.kanji)
+# print(test_waifu.images)
+# print(test_waifu.description)
+# print(test_waifu.actors)
+# print(test_waifu.animeography)
+# print(test_waifu.animeography)
+# stop = time.time()
+# print(stop - start)
+
 
 # import os
 # import random
@@ -47,3 +72,11 @@ for key in waifu_db.keys():
         # print(key)
 print(f'Bad image lists: {count}/{true_count}')  # empty image lists: 1954/43558, 4.49%
 
+# for character_id in waifu_db.keys():
+#     if 'No biography written.' in waifu_db[character_id]['info']['description']:
+#         pass
+#     if 'DetailsPictures' in waifu_db[character_id]['info']['description'] and 'No biography written.' not in waifu_db[character_id]['info']['description']:
+#         print(waifu_db[character_id]['info']['description'])
+#         print('\n')
+#         print(waifu_db[character_id]['info']['description'][waifu_db[character_id]['info']['description'].rfind(' \n'):])
+#         print('\n\n\n')
