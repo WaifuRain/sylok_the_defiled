@@ -45,7 +45,7 @@ for waifu_id in tqdm(character_id_list):
             time.sleep(600)
         new_dictionary.update({w.character_id: {
             'info': {
-                'name': w.database_name.strip(), 'kanji': w.kanji, 'nicknames': w.nicknames, 'initials': w.initials, 'description': w.description},
+                'name': w.database_name.strip(), 'kanji': w.kanji, 'nicknames': w.nicknames, 'initials': w.initials, 'description': w.description.strip()},
                 'images': w.images,
                 'appearances': {'animeography': w.animeography, 'mangaography': w.mangaography},
                 'actors': w.actors}
