@@ -152,6 +152,172 @@ class Character:
             return []
 
 
+"""
+While more readable, using properties made the Character class nearly 8 times slower.
+It worked though :)
+"""
+
+# class Character:
+#     def __init__(self, character_id):
+#         self.character_id = character_id
+#
+#     @property
+#     def source(self):
+#         return requests.get(f'https://myanimelist.net/character/{str(self.character_id)}').text
+#
+#     @property
+#     def name(self):
+#         try:
+#             soup = BeautifulSoup(self.source, features='html.parser')
+#             name = soup.find('span', class_='h1-title')
+#             return name.text.replace('  ', ' ')
+#         except AttributeError:
+#             raise exceptions.MALScrapingError
+#
+#     @property
+#     def first(self):
+#         return self.name.split(' ')[0]
+#
+#     @property
+#     def last(self):
+#         return self.name.split(' ')[-1]
+#
+#     @property
+#     def database_name(self):
+#         if '"' in self.name:
+#             return self.name[:self.name.find('"')] + self.name[self.name.find('" ') + 1:].strip()
+#         else:
+#             return self.name.strip()
+#
+#     @property
+#     def kanji(self):
+#         try:
+#             soup = BeautifulSoup(self.source, features='html.parser')
+#             kanji = soup.find('div', class_='normal_header', style='height: 15px;')
+#             kanji = kanji.find_next('span', style='font-weight: normal;')
+#             return kanji.text
+#         except AttributeError:
+#             return ''
+#
+#     @property
+#     def description(self):
+#         soup = BeautifulSoup(self.source, features='html.parser')
+#         description = soup.find('td', valign='top', style='padding-left: 5px;')
+#         description = description.text[description.text.find(')') + 1:description.text.find('Voice Actors')]
+#         return description.strip()
+#
+#     @property
+#     def voice_actors(self):
+#         try:
+#             soup = BeautifulSoup(self.source, features='html.parser')
+#             voice_actors = soup.find('td', valign='top', style='padding-left: 5px;')
+#             voice_actors = voice_actors.find_next('table', border='0', cellpadding='0', cellspacing='0', width='100%')
+#             voice_actors = voice_actors.find_all_next('a', text=True)
+#             temp_list = []
+#             actor_list = []
+#             for actor in voice_actors:
+#                 actor = str(actor)
+#                 actor = actor[actor.find('">')+2:actor.find('</a>')]
+#                 temp_list.append(actor)
+#             for item in temp_list:
+#                 if item == 'See More' or item == 'More':
+#                     break
+#                 else:
+#                     actor_list.append(item)
+#             return actor_list
+#         except AttributeError:
+#             return None
+#
+#     @property
+#     def voice_actor_languages(self):
+#         try:
+#             soup = BeautifulSoup(self.source, features='html.parser')
+#             languages = soup.find('td', valign='top', style='padding-left: 5px;')
+#             languages = languages.find_next('table', border='0', cellpadding='0', cellspacing='0', width='100%')
+#             languages = languages.find_all_next('small', text=True)
+#             language_list = []
+#             for language in languages:
+#                 language = str(language)
+#                 language = language[language.find('>') + 1:language.find('</small>')]
+#                 language_list.append(language)
+#             return language_list
+#         except AttributeError:
+#             return None
+#
+#     @property
+#     def actors(self):
+#         try:
+#             return list(zip(self.voice_actors, self.voice_actor_languages))
+#         except TypeError:
+#             return []
+#
+#     @property
+#     def animeography(self):
+#         animeography = []
+#         soup = BeautifulSoup(self.source, features='html.parser')
+#         soup = soup.find('div', id='myanimelist').find('div', class_='wrapper').find('div', id='contentWrapper').find(
+#             'div', id='content')
+#         soup = soup.find('table', border='0', cellpadding='0', cellspacing='0', width='100%')
+#         soup = soup.find('td', width='225', class_='borderClass', style='border-width: 0 1px 0 0;', valign='top')
+#         soup = soup.find_all('table', border='0', cellpadding='0', cellspacing='0', width='100%')
+#         t = []
+#         for tag in soup:
+#             t.append(tag.find_all('a', href=True, class_=False, title=False, text=True))
+#         for animes in t[0]:
+#             animes = str(animes)
+#             animeography.append(animes[animes.find('">') + 2:animes.find('</a>')])
+#         return animeography
+#
+#     @property
+#     def mangaography(self):
+#         mangaography = []
+#         soup = BeautifulSoup(self.source, features='html.parser')
+#         soup = soup.find('div', id='myanimelist').find('div', class_='wrapper').find('div', id='contentWrapper').find(
+#             'div', id='content')
+#         soup = soup.find('table', border='0', cellpadding='0', cellspacing='0', width='100%')
+#         soup = soup.find('td', width='225', class_='borderClass', style='border-width: 0 1px 0 0;', valign='top')
+#         soup = soup.find_all('table', border='0', cellpadding='0', cellspacing='0', width='100%')
+#         t = []
+#         for tag in soup:
+#             t.append(tag.find_all('a', href=True, class_=False, title=False, text=True))
+#         for mangas in t[1]:
+#             mangas = str(mangas)
+#             mangaography.append(mangas[mangas.find('">') + 2:mangas.find('</a>')])
+#         return mangaography
+#
+#     @property
+#     def images(self):
+#         image_list = []
+#         soup = BeautifulSoup(requests.get(f'https://myanimelist.net/character/{self.character_id}/{self.first}_{self.last}/pictures').text, features='html.parser')
+#         soup = soup.find_all('a', href=True, title=True, class_='js-picture-gallery', rel='gallery-character')
+#         for link in soup:
+#             link = str(link)
+#             link = link[link.find('https://'):link.find('.jpg') + 4]
+#             image_list.append(link)
+#         image_list = set(image_list)
+#         return list(image_list)
+#
+#     @property
+#     def initials(self):
+#         try:
+#             if '"' in self.name:
+#                 return [name[0] for name in (self.name[:self.name.find('"')] + self.name[self.name.find('" ') + 1:]).replace('  ', ' ').split(' ')]
+#             else:
+#                 return [name[0] for name in self.name.split(' ')]
+#         except IndexError:
+#             return self.name[0]
+#
+#     @property
+#     def nicknames(self):
+#         nickname_list = []
+#         if '"' in self.name:
+#             for nicknames in self.name[self.name.find('"') + 1:self.name.find('" ')].split(','):
+#                 nickname_list.append(nicknames.strip())
+#             return nickname_list
+#         else:
+#             return []
+
+
 class Anime:
     pass
 
